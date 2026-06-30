@@ -28,7 +28,7 @@ const Logo = ({
   return (
     <div className={`inline-flex items-center gap-2 ${className}`}>
       <img
-        src="/Camela Logo.jpeg"
+        src="/Camela Group Logo.PNG"
         alt="Camela Group"
         className={`${SIZES[size] || SIZES.md} rounded-full object-cover flex-shrink-0`}
         draggable={false}

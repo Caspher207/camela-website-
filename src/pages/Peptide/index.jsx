@@ -205,6 +205,43 @@ const Peptide = () => {
         </div>
       </section>
 
+      {/* Credibility Section */}
+      <section className="py-16 bg-brand-50 dark:bg-brand-900/10">
+        <div className="container max-w-5xl px-4">
+          <motion.div {...fadeUp(0)} className="flex flex-col md:flex-row items-center gap-8">
+            <div className="flex-1">
+              <img
+                src="/Medical Breakthroughs & Scientifically proven.png"
+                alt="Medical Breakthroughs & Scientifically Proven"
+                className="w-full max-w-md mx-auto rounded-2xl shadow-lg"
+              />
+            </div>
+            <motion.div {...fadeUp(0.15)} className="flex-1">
+              <h2 className="text-2xl md:text-3xl font-display font-extrabold text-gray-900 dark:text-white tracking-tight mb-4">
+                Backed by Science
+              </h2>
+              <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
+                Our peptide formulations are supported by extensive clinical research and peer-reviewed studies from leading institutions worldwide.
+              </p>
+              <ul className="space-y-2">
+                <li className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  <CheckCircle size={16} className="text-brand-500 flex-shrink-0" />
+                  Clinically tested ingredients
+                </li>
+                <li className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  <CheckCircle size={16} className="text-brand-500 flex-shrink-0" />
+                  Peer-reviewed research
+                </li>
+                <li className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
+                  <CheckCircle size={16} className="text-brand-500 flex-shrink-0" />
+                  Quality certified manufacturing
+                </li>
+              </ul>
+            </motion.div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Walnut Peptides Introduction */}
       <section className="py-20 bg-white dark:bg-gray-900">
         <div className="container max-w-5xl px-4">
@@ -221,9 +258,12 @@ const Peptide = () => {
             <motion.div {...fadeUp(0)} className="flex justify-center">
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-br from-brand-500/10 to-purple-500/10 rounded-3xl blur-xl" />
-                <div className="relative w-full max-w-sm aspect-square bg-gray-100 dark:bg-gray-800 rounded-3xl flex items-center justify-center">
-                  <Brain size={80} className="text-brand-500/30" />
-                  <p className="absolute text-sm text-gray-500 dark:text-gray-400 italic">Add walnut product image</p>
+                <div className="relative w-full max-w-md bg-gray-100 dark:bg-gray-800 rounded-3xl overflow-hidden">
+                  <img
+                    src="/Peptide product - Dark Blue color.png"
+                    alt="Peptide Product"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </motion.div>
