@@ -1,8 +1,9 @@
-import { Link, NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import Logo from '../common/Logo'
 import { useDispatch, useSelector } from 'react-redux'
 import { motion, AnimatePresence } from 'framer-motion'
-import { X, ChevronRight, Heart, ShoppingBag, User, LogIn } from 'lucide-react'
+import { X, ChevronRight, Heart, ShoppingBag, LogIn } from 'lucide-react'
 import { closeMobileMenu, selectMobileMenuOpen } from '../../features/ui/uiSlice'
 import { selectIsAuthenticated, selectUser } from '../../features/auth/authSlice'
 import { selectCartCount } from '../../features/cart/cartSlice'
@@ -12,6 +13,7 @@ import { CATEGORIES } from '../../data/categories'
 
 const MobileMenu = () => {
   const dispatch = useDispatch()
+  const navigate = useNavigate()
   const isOpen = useSelector(selectMobileMenuOpen)
   const isAuthenticated = useSelector(selectIsAuthenticated)
   const user = useSelector(selectUser)
@@ -19,6 +21,28 @@ const MobileMenu = () => {
   const wishlistCount = useSelector(selectWishlistCount)
 
   const close = () => dispatch(closeMobileMenu())
+
+  const goTo = (href) => {
+    dispatch(closeMobileMenu())
+    setTimeout(() => navigate(href), 10)
+  }
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+      document.body.style.position = 'fixed'
+      document.body.style.width = '100%'
+    } else {
+      document.body.style.overflow = ''
+      document.body.style.position = ''
+      document.body.style.width = ''
+    }
+    return () => {
+      document.body.style.overflow = ''
+      document.body.style.position = ''
+      document.body.style.width = ''
+    }
+  }, [isOpen])
 
   return (
     <AnimatePresence>
@@ -35,8 +59,9 @@ const MobileMenu = () => {
             initial={{ x: '-100%' }}
             animate={{ x: 0 }}
             exit={{ x: '-100%' }}
-            transition={{ type: 'tween', duration: 0.3 }}
-            className="absolute left-0 top-0 bottom-0 w-[300px] bg-white dark:bg-gray-900 overflow-y-auto"
+            transition={{ type: 'tween', duration: 0.28 }}
+            className="absolute left-0 top-0 bottom-0 w-[300px] bg-white dark:bg-gray-900 overflow-y-auto overscroll-contain"
+            style={{ WebkitOverflowScrolling: 'touch' }}
           >
             {/* Header */}
             <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 dark:border-gray-800">
@@ -64,21 +89,20 @@ const MobileMenu = () => {
               </div>
             ) : (
               <div className="px-5 py-4 flex gap-3">
-                <Link to={ROUTES.LOGIN} onClick={close} className="btn-primary btn-sm flex-1 justify-center">
+                <button onClick={() => goTo(ROUTES.LOGIN)} className="btn-primary btn-sm flex-1 justify-center">
                   <LogIn size={14} /> Sign In
-                </Link>
-                <Link to={ROUTES.REGISTER} onClick={close} className="btn-outline btn-sm flex-1 justify-center">
+                </button>
+                <button onClick={() => goTo(ROUTES.REGISTER)} className="btn-outline btn-sm flex-1 justify-center">
                   Register
-                </Link>
+                </button>
               </div>
             )}
 
             {/* Quick links */}
             <div className="flex gap-2 px-5 py-3">
-              <Link
-                to={ROUTES.CART}
-                onClick={close}
-                className="flex items-center gap-2 flex-1 px-3 py-2.5 rounded-xl bg-gray-50 dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-200"
+              <button
+                onClick={() => goTo(ROUTES.CART)}
+                className="flex items-center gap-2 flex-1 px-3 py-3 rounded-xl bg-gray-50 dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-200 min-h-[44px]"
               >
                 <ShoppingBag size={15} />
                 Cart
@@ -87,11 +111,10 @@ const MobileMenu = () => {
                     {cartCount}
                   </span>
                 )}
-              </Link>
-              <Link
-                to={ROUTES.WISHLIST}
-                onClick={close}
-                className="flex items-center gap-2 flex-1 px-3 py-2.5 rounded-xl bg-gray-50 dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-200"
+              </button>
+              <button
+                onClick={() => goTo(ROUTES.WISHLIST)}
+                className="flex items-center gap-2 flex-1 px-3 py-3 rounded-xl bg-gray-50 dark:bg-gray-800 text-sm font-medium text-gray-700 dark:text-gray-200 min-h-[44px]"
               >
                 <Heart size={15} />
                 Saved
@@ -100,7 +123,7 @@ const MobileMenu = () => {
                     {wishlistCount}
                   </span>
                 )}
-              </Link>
+              </button>
             </div>
 
             {/* Navigation */}
@@ -113,22 +136,14 @@ const MobileMenu = () => {
                 { label: 'Shop All', href: ROUTES.SHOP },
                 { label: 'About Us', href: ROUTES.ABOUT },
               ].map((item) => (
-                <NavLink
+                <button
                   key={item.href}
-                  to={item.href}
-                  end={item.href === '/'}
-                  onClick={close}
-                  className={({ isActive }) =>
-                    `flex items-center justify-between px-3 py-3 rounded-xl text-sm font-medium mb-1 transition-colors ${
-                      isActive
-                        ? 'bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white'
-                        : 'text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800'
-                    }`
-                  }
+                  onClick={() => goTo(item.href)}
+                  className="flex items-center justify-between w-full px-3 py-3.5 rounded-xl text-sm font-medium mb-1 transition-colors min-h-[48px] text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 active:bg-gray-100 dark:active:bg-gray-700"
                 >
                   {item.label}
                   <ChevronRight size={14} className="text-gray-300" />
-                </NavLink>
+                </button>
               ))}
             </nav>
 
@@ -138,15 +153,14 @@ const MobileMenu = () => {
                 Categories
               </p>
               {CATEGORIES.map((cat) => (
-                <Link
+                <button
                   key={cat.id}
-                  to={`/shop/${cat.slug}`}
-                  onClick={close}
-                  className="flex items-center justify-between px-3 py-3 rounded-xl text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 mb-1 transition-colors"
+                  onClick={() => goTo(`/shop/${cat.slug}`)}
+                  className="flex items-center justify-between w-full px-3 py-3.5 rounded-xl text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 active:bg-gray-100 dark:active:bg-gray-700 mb-1 transition-colors min-h-[48px]"
                 >
                   {cat.name}
                   <ChevronRight size={14} className="text-gray-300" />
-                </Link>
+                </button>
               ))}
             </nav>
 
@@ -161,15 +175,14 @@ const MobileMenu = () => {
                   { label: 'My Orders', href: ROUTES.DASHBOARD_ORDERS },
                   { label: 'Profile', href: ROUTES.DASHBOARD_PROFILE },
                 ].map((item) => (
-                  <Link
+                  <button
                     key={item.href}
-                    to={item.href}
-                    onClick={close}
-                    className="flex items-center justify-between px-3 py-3 rounded-xl text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 mb-1 transition-colors"
+                    onClick={() => goTo(item.href)}
+                    className="flex items-center justify-between w-full px-3 py-3.5 rounded-xl text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 active:bg-gray-100 dark:active:bg-gray-700 mb-1 transition-colors min-h-[48px]"
                   >
                     {item.label}
                     <ChevronRight size={14} className="text-gray-300" />
-                  </Link>
+                  </button>
                 ))}
               </nav>
             )}
