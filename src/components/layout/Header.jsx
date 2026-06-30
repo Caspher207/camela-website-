@@ -51,12 +51,8 @@ const Header = () => {
     {
       label: t('nav.categories'),
       children: [
-        { label: t('nav.vitamins'), href: '/shop/vitamins-supplements' },
         { label: t('nav.personalCare'), href: '/shop/personal-care' },
         { label: t('nav.skincare'), href: '/shop/skincare' },
-        { label: t('nav.healthDevices'), href: '/shop/health-devices' },
-        { label: t('nav.fitness'), href: '/shop/fitness-wellness' },
-        { label: t('nav.nutrition'), href: '/shop/nutrition' },
       ],
     },
   ]
