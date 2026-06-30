@@ -38,10 +38,10 @@ const ProductDetail = () => {
   const { data: allProducts = [] } = useProducts()
 
   const PRODUCT_FAQS = [
-    { id: 'shipping', title: t('product.faq.shipping'), content: t('product.faq.shippingContent') },
-    { id: 'returns', title: t('product.faq.returns'), content: t('product.faq.returnsContent') },
-    { id: 'sizing', title: t('product.faq.sizing'), content: t('product.faq.sizingContent') },
-    { id: 'care', title: t('product.faq.care'), content: t('product.faq.careContent') },
+    { id: 'shipping', title: t('product.faqShipping'), content: t('product.faqShippingContent') },
+    { id: 'returns', title: t('product.faqReturns'), content: t('product.faqReturnsContent') },
+    { id: 'storage', title: t('product.faqStorage'), content: t('product.faqStorageContent') },
+    { id: 'dosage', title: t('product.faqDosage'), content: t('product.faqDosageContent') },
   ]
 
   const { addToCart } = useCart()
