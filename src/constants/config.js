@@ -1,0 +1,83 @@
+export const API_BASE_URL = 'https://fakestoreapi.com'
+
+export const APP_CONFIG = {
+  name: 'Camela Group',
+  tagline: 'Science-Backed Wellness for Every Family',
+  description: 'Bioactive peptide nutrition & functional health foods — improving lives through scientifically proven wellness solutions across Southeast Asia.',
+  email: 'dawn@camela.com',
+  phone: '+65-80641997',
+  address: 'Singapore',
+  social: {
+    instagram: 'https://instagram.com',
+    twitter: 'https://twitter.com',
+    facebook: 'https://facebook.com',
+    pinterest: 'https://pinterest.com',
+    tiktok: 'https://tiktok.com',
+  },
+}
+
+export const SHIPPING_METHODS = [
+  {
+    id: 'standard',
+    name: 'Standard Shipping',
+    description: '5-7 business days',
+    price: 5.99,
+    freeOver: 75,
+  },
+  {
+    id: 'express',
+    name: 'Express Shipping',
+    description: '2-3 business days',
+    price: 12.99,
+    freeOver: null,
+  },
+  {
+    id: 'overnight',
+    name: 'Overnight Shipping',
+    description: 'Next business day',
+    price: 24.99,
+    freeOver: null,
+  },
+]
+
+export const TAX_RATE = 0.1
+
+export const FREE_SHIPPING_THRESHOLD = 75
+
+export const SORT_OPTIONS = [
+  { value: 'featured', label: 'Featured' },
+  { value: 'newest', label: 'Newest' },
+  { value: 'best-selling', label: 'Best Selling' },
+  { value: 'highest-rated', label: 'Highest Rated' },
+  { value: 'price-asc', label: 'Price: Low to High' },
+  { value: 'price-desc', label: 'Price: High to Low' },
+]
+
+export const PRODUCTS_PER_PAGE = 12
+
+export const VALID_COUPONS = {
+  SAVE10: { discount: 0.1, type: 'percent', description: '10% off your order' },
+  SAVE20: { discount: 0.2, type: 'percent', description: '20% off your order' },
+  FLAT15: { discount: 15, type: 'fixed', description: '$15 off your order' },
+  WELCOME: { discount: 0.15, type: 'percent', description: '15% off for new customers' },
+}
+
+export const DEMO_USER = {
+  username: 'johnd',
+  password: 'm38rmF$',
+}
+
+export const PAYMENT_METHODS = [
+  { id: 'card', name: 'Credit / Debit Card', icon: 'CreditCard' },
+  { id: 'paypal', name: 'PayPal', icon: 'Wallet' },
+  { id: 'apple-pay', name: 'Apple Pay', icon: 'Smartphone' },
+  { id: 'google-pay', name: 'Google Pay', icon: 'Smartphone' },
+]
+
+export const IMAGE_SIZES = {
+  thumbnail: '64px',
+  small: '200px',
+  medium: '400px',
+  large: '800px',
+  hero: '1920px',
+}

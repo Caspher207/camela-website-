@@ -1,0 +1,735 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "categories": "Categories",
+    "about": "About Us",
+    "dashboard": "Dashboard",
+    "cart": "Cart",
+    "wishlist": "Wishlist",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Sign Out",
+    "adminPanel": "Admin Panel",
+    "vitamins": "Vitamins & Supplements",
+    "personalCare": "Personal Care",
+    "skincare": "Skincare",
+    "healthDevices": "Health Devices",
+    "fitness": "Fitness & Wellness",
+    "nutrition": "Nutrition & Food"
+  },
+  "header": {
+    "freeShipping": "Free shipping on orders over $75",
+    "shopNow": "Shop Now",
+    "useCode": "Use code",
+    "forOff": "for 10% off",
+    "viewAllCategories": "View All Categories"
+  },
+  "home": {
+    "hero": {
+      "title": "Premium Health & Wellness Products",
+      "subtitle": "Discover quality products for your healthy lifestyle",
+      "shopNow": "Shop Now",
+      "pillLabel": "Discover the Future of Cellular Wellness",
+      "title1": "Nourish Your",
+      "title2": "Body & Mind",
+      "title3": "Naturally",
+      "trustedBy": "trusted by 10,000+ customers",
+      "stat1": "Certified Quality",
+      "stat2": "Certified Products",
+      "stat3": "Global Presence",
+      "stat4": "Food Safety"
+    },
+    "categories": {
+      "title": "Browse by Category",
+      "viewAll": "View All"
+    },
+    "category": {
+      "title": "Browse by Category",
+      "subtitle": "Shop by Category"
+    },
+    "featured": {
+      "tag": "Handpicked selections for you",
+      "title": "Featured Products",
+      "subtitle": "Discover Our Collection"
+    },
+    "newArrivals": {
+      "title": "New Arrivals",
+      "subtitle": "Fresh styles just landed"
+    },
+    "newsletter": {
+      "title": "Stay in the Loop",
+      "desc": "Subscribe to get special offers, free giveaways, and exclusive deals.",
+      "placeholder": "Enter your email",
+      "noSpam": "No spam, unsubscribe at any time.",
+      "validEmail": "Please enter a valid email address",
+      "success": "🎉 You're subscribed! Check your email for a welcome gift.",
+      "perk1Title": "Exclusive Offers",
+      "perk1Desc": "Members-only discounts and early access",
+      "perk2Title": "Free Shipping",
+      "perk2Desc": "On all orders over $75",
+      "perk3Title": "Easy Returns",
+      "perk3Desc": "30-day hassle-free returns"
+    },
+    "joinFamily": {
+      "title": "Join the Camela Family",
+      "subtitle": "Become part of our growing community",
+      "member": {
+        "title": "Become a Member",
+        "description": "Join our loyalty program and enjoy exclusive rewards, early access to new products, and personalized recommendations.",
+        "cta": "Join Now"
+      },
+      "partner": {
+        "title": "Distribution Partner",
+        "description": "Partner with us to distribute premium health products. Competitive margins, marketing support, and reliable supply chain.",
+        "cta": "Apply as Partner"
+      },
+      "importer": {
+        "title": "International Importer",
+        "description": "Import our quality products to your market. We provide documentation, compliance support, and bulk pricing.",
+        "cta": "Contact Us"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email Address",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "demoCredentials": "Demo credentials (click to fill)",
+      "username": "Username"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join the Camela Group family today",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "agreeTerms": "I agree to the Terms and Conditions",
+      "createAccount": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Forgot password?",
+      "subtitle": "Enter your email and we'll send you a reset link.",
+      "email": "Email Address",
+      "sendReset": "Send Reset Link",
+      "sending": "Sending...",
+      "backToLogin": "Back to Sign In",
+      "checkInbox": "Check your inbox",
+      "sentResetLink": "We sent a reset link to",
+      "didntReceive": "Didn't receive it? Check your spam folder or",
+      "tryAgain": "try again"
+    },
+    "validation": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "validEmail": "Please enter a valid email",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordsMatch": "Passwords don't match",
+      "acceptTerms": "You must accept the terms",
+      "usernameRequired": "Username is required",
+      "passwordMin4": "Password must be at least 4 characters"
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "emptyDesc": "Looks like you haven't added anything yet.",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove",
+    "discount": "Discount",
+    "free": "Free",
+    "addMore": "Add",
+    "forFreeShipping": "more for free shipping!",
+    "clearCart": "Clear Cart",
+    "couponTitle": "Have a coupon?",
+    "couponPlaceholder": "Enter coupon code",
+    "orderSummary": "Order Summary",
+    "tax": "Tax",
+    "freeShippingMessage": "You qualify for free shipping!",
+    "perItem": "per item",
+    "itemsInCart": "items in your cart"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "description": "Description",
+    "reviews": "Reviews",
+    "related": "Related Products",
+    "quantity": "Quantity",
+    "specifications": "Specifications",
+    "ingredients": "Ingredients",
+    "usage": "Usage",
+    "size": "Size",
+    "color": "Color",
+    "sizeGuide": "Size Guide",
+    "quickView": "Quick View",
+    "notFound": "Product not found",
+    "backToShop": "Back to Shop",
+    "selectSize": "Please select a size",
+    "linkCopied": "Link copied to clipboard!",
+    "faq": "Frequently Asked Questions",
+    "youMayAlsoLike": "You May Also Like",
+    "viewAll": "View all",
+    "rating": "Rating",
+    "availability": "Availability",
+    "reviewsFrom": "Reviews are displayed from verified purchasers.",
+    "feature1": "Premium quality materials",
+    "feature2": "Ethically sourced and produced",
+    "feature3": "Designed for durability and comfort",
+    "feature4": "Available in multiple variants",
+    "freeShipping": "Free Shipping",
+    "freeShippingDesc": "Over $75",
+    "easyReturns": "Easy Returns",
+    "easyReturnsDesc": "30 days",
+    "securePay": "Secure Pay",
+    "securePayDesc": "256-bit SSL"
+  },
+  "dashboard": {
+    "title": "My Dashboard",
+    "overview": "Overview",
+    "orders": "My Orders",
+    "addresses": "Addresses",
+    "wishlist": "Wishlist",
+    "settings": "Settings",
+    "profile": "Profile",
+    "personalInfo": "Personal Information",
+    "saveChanges": "Save Changes",
+    "welcome": "Welcome back",
+    "totalOrders": "Total Orders",
+    "totalSpent": "Total Spent",
+    "recentOrders": "Recent Orders",
+    "viewAllOrders": "View All Orders",
+    "noOrders": "No orders yet",
+    "startShopping": "Start Shopping",
+    "addAddress": "Add New Address",
+    "editAddress": "Edit Address",
+    "deleteAddress": "Delete Address",
+    "setDefault": "Set as Default",
+    "defaultAddress": "Default",
+    "dangerZone": "Danger Zone",
+    "deleteAccount": "Delete Account",
+    "deleteAccountDesc": "Permanently delete your account and all data"
+  },
+  "common": {
+    "search": "Search products...",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "tryAgain": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No",
+    "apply": "Apply",
+    "filter": "Filter",
+    "sort": "Sort",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "newest": "Newest",
+    "popular": "Popular",
+    "all": "All",
+    "clear": "Clear",
+    "select": "Select",
+    "optional": "optional",
+    "products": "products",
+    "viewAll": "View all"
+  },
+  "filter": {
+    "title": "Filters",
+    "clearAll": "Clear all",
+    "category": "Category",
+    "priceRange": "Price Range",
+    "minRating": "Minimum Rating",
+    "andUp": "& up",
+    "under25": "Under $25",
+    "range25to50": "$25 – $50",
+    "range50to100": "$50 – $100",
+    "range100to200": "$100 – $200",
+    "over200": "Over $200"
+  },
+  "search": {
+    "placeholder": "Search vitamins, supplements, skincare...",
+    "products": "Products",
+    "seeAllResults": "See all results for",
+    "recentSearches": "Recent Searches",
+    "trending": "Trending"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "message": "An unexpected error occurred. Please refresh the page or try again.",
+    "tryAgain": "Try Again"
+  },
+  "admin": {
+    "inventory": {
+      "title": "Inventory Management",
+      "description": "Track and manage product stock levels",
+      "totalProducts": "Total Products",
+      "inStock": "In Stock",
+      "lowStock": "Low Stock",
+      "outOfStock": "Out of Stock",
+      "searchPlaceholder": "Search products...",
+      "all": "All",
+      "product": "Product",
+      "sku": "SKU",
+      "stock": "Stock",
+      "status": "Status",
+      "action": "Action",
+      "noProducts": "No products found",
+      "noMatching": "No products matching current filters",
+      "stockUpdated": "Stock updated successfully",
+      "stockUpdateFailed": "Failed to update stock"
+    },
+    "orders": {
+      "title": "Orders Management",
+      "description": "View and manage customer orders",
+      "export": "Export",
+      "exported": "Orders exported successfully",
+      "searchPlaceholder": "Search orders...",
+      "all": "All",
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "order": "Order",
+      "customer": "Customer",
+      "date": "Date",
+      "total": "Total",
+      "status": "Status",
+      "showing": "Showing",
+      "of": "of",
+      "orders": "orders"
+    },
+    "customers": {
+      "title": "Customer Management",
+      "description": "View and manage your customers",
+      "totalCustomers": "Total Customers",
+      "activeCustomers": "Active",
+      "newThisMonth": "New This Month",
+      "searchPlaceholder": "Search customers...",
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive",
+      "customer": "Customer",
+      "email": "Email",
+      "orders": "Orders",
+      "spent": "Spent",
+      "status": "Status",
+      "showing": "Showing",
+      "of": "of",
+      "customers": "customers",
+      "customerDetails": "Customer Details",
+      "memberSince": "Member Since",
+      "totalOrders": "Total Orders",
+      "totalSpent": "Total Spent",
+      "lastOrder": "Last Order",
+      "statusToggled": "Customer status updated"
+    }
+  },
+  "footer": {
+    "shop": "Shop",
+    "company": "Company",
+    "support": "Support",
+    "legal": "Legal",
+    "allProducts": "All Products",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "press": "Press",
+    "blog": "Blog",
+    "affiliates": "Affiliates",
+    "helpCenter": "Help Center",
+    "contactUs": "Contact Us",
+    "returns": "Returns & Exchanges",
+    "orderStatus": "Order Status",
+    "productSafety": "Product Safety",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "accessibility": "Accessibility",
+    "newsletterTitle": "Get 15% off your first order",
+    "newsletterDesc": "Subscribe to our newsletter for exclusive deals and health tips.",
+    "enterEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "brandDesc": "Premium health and wellness products for a better lifestyle. Quality you can trust, delivered to your door.",
+    "allRightsReserved": "All rights reserved."
+  },
+  "tagline": "Your Health, Our Priority",
+  "checkout": {
+    "title": "Checkout",
+    "contactInfo": "Contact Information",
+    "shippingAddress": "Shipping Address",
+    "shipping": "Delivery Method",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "continue": "Continue",
+    "back": "Back",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email Address",
+    "streetAddress": "Street Address",
+    "city": "City",
+    "state": "State",
+    "zipCode": "ZIP Code",
+    "country": "Country",
+    "phone": "Phone Number",
+    "cardNumber": "Card Number",
+    "nameOnCard": "Name on Card",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "tax": "Tax",
+    "free": "Free",
+    "freeOver": "Free over ${{amount}}",
+    "redirectMessage": "You'll be redirected to {{provider}} to complete payment.",
+    "orderSuccess": "Order Placed Successfully!",
+    "orderNumber": "Order Number",
+    "thankYou": "Thank you for your order",
+    "orderConfirmed": "Your order has been confirmed and will be shipped soon.",
+    "steps": {
+      "information": "Information",
+      "shipping": "Shipping",
+      "delivery": "Delivery",
+      "payment": "Payment",
+      "review": "Review"
+    },
+    "validation": {
+      "validEmail": "Valid email required",
+      "validPhone": "Valid phone required",
+      "required": "Required",
+      "addressRequired": "Address required",
+      "cityRequired": "City required",
+      "stateRequired": "State required",
+      "zipRequired": "ZIP code required",
+      "countryRequired": "Country required"
+    }
+  },
+  "orderConfirmation": {
+    "title": "Order Confirmed!",
+    "subtitle": "Thank you for your purchase. We'll send you a confirmation email shortly.",
+    "orderNumber": "Order Number",
+    "itemsOrdered": "Items Ordered",
+    "moreItems": "more items",
+    "trackOrder": "Track Order",
+    "continueShopping": "Continue Shopping",
+    "timeline": {
+      "placed": "Order Placed",
+      "justNow": "Just now",
+      "paymentConfirmed": "Payment Confirmed",
+      "processing": "Processing...",
+      "orderProcessing": "Order Processing",
+      "est12": "Est. 1–2 business days",
+      "shipped": "Shipped",
+      "est35": "Est. 3–5 business days",
+      "delivered": "Delivered",
+      "est57": "Est. 5–7 business days"
+    }
+  },
+  "orders": {
+    "status": "Status",
+    "date": "Date",
+    "total": "Total",
+    "items": "Items",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "cancelled": "Cancelled",
+    "orderDetails": "Order Details",
+    "trackOrder": "Track Order"
+  },
+  "joinFamily": {
+    "sectionTag": "Join the Family",
+    "sectionTitle": "Choose Your Path with Camela Group",
+    "sectionSubtitle": "Whether you are on a personal wellness journey or building a business, there is a place for you in the Camela Group family.",
+    "member": {
+      "tag": "For Individuals",
+      "title": "Become a Member",
+      "description": "Join our wellness community and enjoy exclusive privileges, science-backed health insights, and loyalty rewards on every purchase.",
+      "perk1": "Exclusive Member Discounts",
+      "perk2": "Early Access to New Products",
+      "perk3": "Personalised Health Insights",
+      "cta": "Join as Member"
+    },
+    "partner": {
+      "tag": "For Business Partners",
+      "title": "Distribution Partner",
+      "description": "Grow your business by sharing the Camela Group difference. We provide the systems, support, and products — you build the relationships.",
+      "perk1": "Attractive Profit Margins",
+      "perk2": "Full Marketing Support",
+      "perk3": "High Retention Product",
+      "cta": "Apply to be a DP"
+    },
+    "importer": {
+      "tag": "For Global Partners",
+      "title": "Official Importer",
+      "description": "Expand your portfolio by introducing Camela Group's premium walnut peptide line to new international markets at scale.",
+      "perk1": "Exclusive Regional Rights",
+      "perk2": "Wholesale Pricing Tiers",
+      "perk3": "Full Supply Chain Support",
+      "cta": "Become an Importer"
+    }
+  },
+  "apply": {
+    "backToHome": "Back to Home",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "e.g. Julian Tan",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "submitting": "Submitting...",
+    "successToast": "Application submitted successfully!",
+    "validation": {
+      "fullName": "Full name is required",
+      "phone": "Enter a valid phone number",
+      "email": "Enter a valid email address",
+      "motivation": "Please write at least 20 characters"
+    },
+    "member": {
+      "title": "Member Application",
+      "subtitle": "Join thousands of families benefiting from science-backed walnut peptide nutrition. Complete the form and we will be in touch.",
+      "motivationLabel": "Tell us about your health goals",
+      "motivationPlaceholder": "Share your wellness goals and what you hope to achieve with Camela Group...",
+      "submitLabel": "Submit Application",
+      "successTitle": "Welcome to the Family!",
+      "successMessage": "Your membership application has been received. We will be in touch within 1–2 business days."
+    },
+    "partner": {
+      "title": "Distribution Partner Application",
+      "subtitle": "Build a thriving business with Camela Group's premium bioactive peptide products. Fill in your details and our team will reach out.",
+      "motivationLabel": "Why do you want to partner with Camela Group?",
+      "motivationPlaceholder": "Briefly describe your business background, sales experience, and target market...",
+      "submitLabel": "Apply to be a DP",
+      "successTitle": "Application Submitted!",
+      "successMessage": "Our partnership team will review your application and contact you within 2–3 business days."
+    },
+    "importer": {
+      "title": "Official Importer Application",
+      "subtitle": "Bring Camela Group's walnut peptide products into new international markets. Tell us about your network and we will take it from there.",
+      "motivationLabel": "Why do you want to join Camela Group?",
+      "motivationPlaceholder": "Briefly describe your goals, target market, and existing distribution network...",
+      "submitLabel": "Apply to be an Importer",
+      "successTitle": "Application Received!",
+      "successMessage": "Our global partnerships team will review your application and be in touch within 3–5 business days."
+    }
+  },
+  "testimonials": {
+    "sectionTag": "Testimonials",
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of families who trust Camela Group for their natural wellness journey.",
+    "ratingScore": "4.9 out of 5",
+    "ratingCount": "from 2,847 reviews"
+  },
+  "flashSale": {
+    "tag": "Flash Sale",
+    "title": "Best Sellers",
+    "subtitle": "Limited time offers — don't miss out!",
+    "endsIn": "Ends in:",
+    "hours": "Hours",
+    "mins": "Mins",
+    "secs": "Secs",
+    "viewAll": "View All Flash Deals"
+  },
+  "brands": {
+    "title": "Trusted Brands"
+  },
+  "instagram": {
+    "title": "Follow Our Wellness Journey",
+    "subtitle": "Tag us in your photos for a chance to be featured"
+  },
+  "shop": {
+    "allProducts": "All Products",
+    "productsFound": "products found",
+    "filters": "Filters",
+    "noProducts": "No products found",
+    "noProductsDesc": "Try adjusting your filters or search for something else.",
+    "clearFilters": "Clear Filters",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "wishlist": {
+    "title": "My Wishlist",
+    "empty": "Your wishlist is empty",
+    "emptyDesc": "Save items you love by clicking the heart icon on any product.",
+    "discover": "Discover Products",
+    "savedItems": "saved items",
+    "clearAll": "Clear all",
+    "moveToCart": "Move to Cart"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "Oops! The page you're looking for doesn't exist or has been moved. Let's get you back on track.",
+    "goBack": "Go Back",
+    "backToHome": "Back to Home",
+    "popularPages": "Popular pages"
+  },
+  "about": {
+    "hero": {
+      "badge": "Camela Group Pte. Ltd. · Est. 2026 · Singapore",
+      "title1": "Improving Lives Through",
+      "title2": "Bioactive Science",
+      "subtitle": "A Singapore-founded company bringing two world-patented health innovations — LivePure Hydrogen Water Technology and Walnut Peptide Nutrition — direct from factory to families across Southeast Asia."
+    },
+    "video": {
+      "tag": "Our Story",
+      "title": "Camela Group in Action",
+      "subtitle": "See how Camela Group is bringing bioactive peptide science to families across Southeast Asia."
+    },
+    "factory": {
+      "tag": "Manufacturing Powerhouse",
+      "title": "Direct From Factory Sales Model",
+      "description": "This is significant because it saves a massive amount of distribution cost. By utilizing a direct sales model straight from our advanced facilities, we eliminate unnecessary middlemen and pass the savings directly to you.",
+      "stat1Value": "67,777",
+      "stat1Label": "Sq Meters",
+      "stat2Value": "9,000",
+      "stat2Label": "Tonnes/Year",
+      "stat3Value": "63",
+      "stat3Label": "Patent Rights"
+    },
+    "mission": {
+      "tag": "Our Purpose",
+      "heading": "Mission & Vision",
+      "title": "Our Mission",
+      "description": "To improve lives through innovative bioactive peptide nutrition and functional foods, making scientifically proven wellness solutions accessible to millions of families across Southeast Asia."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become Southeast Asia's leading bioactive peptide and functional nutrition company, transforming lives through innovative wellness solutions grounded in science and quality."
+    },
+    "product": {
+      "tag": "Flagship Product",
+      "title": "Camela Group Walnut Peptide",
+      "subtitle": "Formulated using premium walnut protein and advanced enzymatic hydrolysis technology — delivering highly absorbable bioactive nutrients that support overall health.",
+      "natural": "All Natural · No Preservatives · No Colorants · No Added Flavors",
+      "manufacturer": "Manufactured by Dezhou Lanli Biotechnology Co., Ltd. — a leading high-tech biotechnology enterprise in China."
+    },
+    "benefits": {
+      "brain": "Brain & Neurological Function",
+      "antioxidant": "Antioxidant & Anti-Aging Support",
+      "bloodSugar": "Blood Sugar & Cholesterol Management",
+      "immune": "Immune System Enhancement",
+      "liver": "Liver Health Maintenance",
+      "sleep": "Improved Sleep Quality & Mood"
+    },
+    "certs": {
+      "tag": "Quality Assurance",
+      "title": "Manufacturing Excellence",
+      "subtitle": "Every Camela Group product meets rigorous international standards of safety, purity, and consistency for global markets.",
+      "iso": "Food Safety Management System",
+      "haccp": "Hazard Analysis & Critical Control Points",
+      "halal": "Certified for All Consumers"
+    },
+    "pipeline": {
+      "tag": "Innovation",
+      "title": "Expanding Our Portfolio",
+      "description": "Camela Group continuously expands its range of functional health products to meet growing demand for evidence-based nutrition. Our future pipeline supports healthy aging, beauty, vitality, recovery, and long-term wellness.",
+      "cta": "Shop Current Products",
+      "soy": "Soy Peptides",
+      "collagen": "Collagen Peptides",
+      "functional": "Specialised Functional Foods",
+      "therapeutic": "Therapeutic Meal Solutions",
+      "beauty": "Health & Beauty Nutritional Products"
+    },
+    "reach": {
+      "tag": "Our Reach",
+      "title": "Serving Southeast Asia",
+      "subtitle": "Our primary market is Southeast Asia — one of the world's most dynamic and rapidly growing health and wellness regions."
+    },
+    "markets": {
+      "singapore": "Singapore",
+      "malaysia": "Malaysia",
+      "indonesia": "Indonesia",
+      "thailand": "Thailand",
+      "vietnam": "Vietnam",
+      "emerging": "Emerging SEA Markets"
+    },
+    "partner": {
+      "tag": "Collaborate",
+      "title": "Partner With Us",
+      "description": "Camela Group actively seeks partnerships with distributors, healthcare practitioners, wellness organisations, retailers, and strategic business partners throughout Southeast Asia. We believe in building long-term relationships based on trust, shared resources, and mutual growth.",
+      "getInTouch": "Get in Touch",
+      "viewProducts": "View Products"
+    },
+    "contact": {
+      "tag": "Reach Out",
+      "title": "Contact Us",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "products": {
+      "tag": "Our Product Range",
+      "title": "Two Technologies. One Vision.",
+      "subtitle": "Factory-direct from our manufacturing partners — world-patented products delivering science-backed health solutions to families across Southeast Asia.",
+      "hydrogen": {
+        "tag": "LivePure",
+        "name": "Hydrogen Water Machine",
+        "badge": "World Patented",
+        "desc": "High-concentration molecular hydrogen technology with worldwide patents registered in Korea, USA, and Japan. Awarded at the International Exhibition of Inventions, Geneva 2015.",
+        "cta": "See the Machine"
+      },
+      "peptide": {
+        "tag": "Camela Group",
+        "name": "Walnut Peptide",
+        "badge": "Factory Direct",
+        "desc": "Bioactive peptide nutrition through advanced enzymatic hydrolysis — multiple peptide types available, all manufactured at GMP-certified, ISO 22000 & HALAL-certified facilities.",
+        "cta": "Shop Now"
+      },
+      "factory": {
+        "title": "Factory Direct · No Middlemen · Worldwide Patents",
+        "desc": "We are the manufacturer. Every product ships straight from our factory to you — no retailers, no markups, just true factory pricing backed by global patents."
+      }
+    },
+    "hydrogen": {
+      "tag": "LivePure × Camela Group",
+      "title": "LivePure Hydrogen Water Machine",
+      "subtitle": "World-patented molecular hydrogen technology — clinically supported to neutralize free radicals, reduce oxidative stress, and promote cardiovascular and metabolic wellbeing.",
+      "videoTitle": "LivePure Hydrogen Water Generator — Official Product Demo",
+      "fights": {
+        "heading": "High Concentration Molecular Hydrogen Can Help Fight:",
+        "bp": {
+          "title": "High Blood Pressure",
+          "desc": "Molecular hydrogen's potent antioxidant properties neutralize free radicals, reducing oxidative stress and inflammation associated with high blood pressure."
+        },
+        "diabetes": {
+          "title": "Diabetes",
+          "desc": "Molecular hydrogen reduces oxidative stress and inflammation — key factors in diabetes development — helping to manage blood sugar naturally."
+        },
+        "fatigue": {
+          "title": "Chronic Fatigue",
+          "desc": "Molecular hydrogen combats fatigue by neutralizing free radicals, reducing oxidative stress, and restoring overall cellular energy levels."
+        },
+        "stroke": {
+          "title": "Stroke & Heart Attack",
+          "desc": "Supports cardiovascular health, promotes optimal blood flow, and helps reduce the risk of stroke and heart attack through antioxidant action."
+        }
+      },
+      "patents": {
+        "heading": "World Patented Technology",
+        "footnote": "Patent registered at Korea Intellectual Property Office (2015) · USA Patent License (2016) · Japan Patent License (2018) · Awarded at International Exhibition of Inventions, Geneva & Seoul International Invention Fair (2015)."
+      }
+    }
+  },
+  "searchResults": {
+    "resultsFor": "Search results for",
+    "found": "results found",
+    "noResults": "No results for \"{{query}}\"",
+    "noResultsDesc": "Try different keywords, check for typos, or browse our categories below.",
+    "browseAll": "Browse All Products"
+  }
+}

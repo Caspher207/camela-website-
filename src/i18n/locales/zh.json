@@ -1,0 +1,723 @@
+{
+  "nav": {
+    "home": "首页",
+    "shop": "商店",
+    "categories": "分类",
+    "about": "关于我们",
+    "dashboard": "仪表板",
+    "cart": "购物车",
+    "wishlist": "愿望清单",
+    "login": "登录",
+    "register": "注册",
+    "logout": "退出登录",
+    "adminPanel": "管理面板",
+    "vitamins": "维生素与补充剂",
+    "personalCare": "个人护理",
+    "skincare": "护肤",
+    "healthDevices": "健康设备",
+    "fitness": "健身与健康",
+    "nutrition": "营养与食品"
+  },
+  "header": {
+    "freeShipping": "满$75免运费",
+    "shopNow": "立即购买",
+    "useCode": "使用优惠码",
+    "forOff": "享9折优惠",
+    "viewAllCategories": "查看所有分类"
+  },
+  "home": {
+    "hero": {
+      "title": "优质健康与保健产品",
+      "subtitle": "为您健康生活发现优质产品",
+      "shopNow": "立即购买",
+      "pillLabel": "探索细胞健康的未来",
+      "title1": "滋养您的",
+      "title2": "身心健康",
+      "title3": "自然之选",
+      "trustedBy": "超过10,000位客户信赖",
+      "stat1": "认证品质",
+      "stat2": "认证产品",
+      "stat3": "全球覆盖",
+      "stat4": "食品安全"
+    },
+    "categories": {
+      "title": "按类别浏览",
+      "viewAll": "查看全部"
+    },
+    "category": {
+      "title": "按类别浏览",
+      "subtitle": "按分类购物"
+    },
+    "featured": {
+      "tag": "为您精心挑选",
+      "title": "精选产品",
+      "subtitle": "探索我们的系列"
+    },
+    "newArrivals": {
+      "title": "新品上市",
+      "subtitle": "新鲜款式刚刚到货"
+    },
+    "newsletter": {
+      "title": "保持联系",
+      "desc": "订阅获取特别优惠、免费赠品和独家折扣。",
+      "placeholder": "输入您的邮箱",
+      "noSpam": "不发送垃圾邮件，随时退订。",
+      "validEmail": "请输入有效的电子邮件地址",
+      "success": "🎉 订阅成功！请查看您的邮箱获取欢迎礼物。",
+      "perk1Title": "独家优惠",
+      "perk1Desc": "会员专属折扣和优先体验",
+      "perk2Title": "免费配送",
+      "perk2Desc": "满$75订单免运费",
+      "perk3Title": "轻松退换",
+      "perk3Desc": "30天无忧退换"
+    },
+    "joinFamily": {
+      "title": "加入Camela大家庭",
+      "subtitle": "成为我们不断发展的社区的一员",
+      "member": {
+        "title": "成为会员",
+        "description": "加入我们的忠诚度计划，享受独家奖励、新产品优先体验和个性化推荐。",
+        "cta": "立即加入"
+      },
+      "partner": {
+        "title": "分销合作伙伴",
+        "description": "与我们合作分销优质健康产品。具有竞争力的利润率、营销支持和可靠的供应链。",
+        "cta": "申请成为合作伙伴"
+      },
+      "importer": {
+        "title": "国际进口商",
+        "description": "将我们的优质产品进口到您的市场。我们提供文件、合规支持和批量定价。",
+        "cta": "联系我们"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "登录您的账户",
+      "email": "电子邮件地址",
+      "password": "密码",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？",
+      "signIn": "登录",
+      "noAccount": "没有账户？",
+      "signUp": "注册",
+      "demoCredentials": "演示账号（点击填写）",
+      "username": "用户名"
+    },
+    "register": {
+      "title": "创建账户",
+      "subtitle": "今天加入Camela大家庭",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "电子邮件地址",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "agreeTerms": "我同意条款和条件",
+      "createAccount": "创建账户",
+      "hasAccount": "已有账户？",
+      "signIn": "登录"
+    },
+    "forgotPassword": {
+      "title": "忘记密码？",
+      "subtitle": "输入您的邮箱，我们将发送重置链接。",
+      "email": "电子邮件地址",
+      "sendReset": "发送重置链接",
+      "sending": "发送中...",
+      "backToLogin": "返回登录",
+      "checkInbox": "查看您的收件箱",
+      "sentResetLink": "我们已发送重置链接至",
+      "didntReceive": "没有收到？请检查垃圾邮件或",
+      "tryAgain": "重试"
+    },
+    "validation": {
+      "firstNameRequired": "名字为必填项",
+      "lastNameRequired": "姓氏为必填项",
+      "validEmail": "请输入有效的电子邮件",
+      "passwordMin": "密码至少6个字符",
+      "passwordsMatch": "密码不匹配",
+      "acceptTerms": "您必须接受条款",
+      "usernameRequired": "用户名为必填项",
+      "passwordMin4": "密码至少4个字符"
+    }
+  },
+  "cart": {
+    "title": "购物车",
+    "empty": "您的购物车是空的",
+    "emptyDesc": "看起来您还没有添加任何商品。",
+    "continueShopping": "继续购物",
+    "subtotal": "小计",
+    "shipping": "运费",
+    "total": "总计",
+    "checkout": "前往结账",
+    "remove": "移除",
+    "discount": "折扣",
+    "free": "免费",
+    "addMore": "再加",
+    "forFreeShipping": "即可享受免运费！",
+    "clearCart": "清空购物车",
+    "couponTitle": "有优惠券？",
+    "couponPlaceholder": "输入优惠码",
+    "orderSummary": "订单摘要",
+    "tax": "税费",
+    "freeShippingMessage": "您已满足免运费条件！",
+    "perItem": "每件",
+    "itemsInCart": "件商品在购物车中"
+  },
+  "product": {
+    "addToCart": "加入购物车",
+    "inStock": "有货",
+    "outOfStock": "缺货",
+    "description": "描述",
+    "reviews": "评论",
+    "related": "相关产品",
+    "quantity": "数量",
+    "specifications": "规格",
+    "ingredients": "成分",
+    "usage": "用法",
+    "size": "尺寸",
+    "color": "颜色",
+    "sizeGuide": "尺寸指南",
+    "quickView": "快速查看",
+    "notFound": "未找到产品",
+    "backToShop": "返回商店",
+    "selectSize": "请选择尺寸",
+    "linkCopied": "链接已复制到剪贴板！",
+    "faq": "常见问题",
+    "youMayAlsoLike": "您可能还喜欢",
+    "viewAll": "查看全部",
+    "rating": "评分",
+    "availability": "库存状态",
+    "reviewsFrom": "评论来自已验证的购买者。",
+    "feature1": "优质材料",
+    "feature2": "道德采购和生产",
+    "feature3": "耐用舒适设计",
+    "feature4": "多种款式可选",
+    "freeShipping": "免费配送",
+    "freeShippingDesc": "满$75",
+    "easyReturns": "轻松退换",
+    "easyReturnsDesc": "30天",
+    "securePay": "安全支付",
+    "securePayDesc": "256位SSL"
+  },
+  "dashboard": {
+    "title": "我的仪表板",
+    "overview": "概览",
+    "orders": "我的订单",
+    "addresses": "地址",
+    "wishlist": "愿望清单",
+    "settings": "设置",
+    "profile": "个人资料",
+    "personalInfo": "个人信息",
+    "saveChanges": "保存更改",
+    "welcome": "欢迎回来",
+    "totalOrders": "总订单数",
+    "totalSpent": "总消费",
+    "recentOrders": "最近订单",
+    "viewAllOrders": "查看所有订单",
+    "noOrders": "暂无订单",
+    "startShopping": "开始购物",
+    "addAddress": "添加新地址",
+    "editAddress": "编辑地址",
+    "deleteAddress": "删除地址",
+    "setDefault": "设为默认",
+    "defaultAddress": "默认",
+    "dangerZone": "危险区域",
+    "deleteAccount": "删除账户",
+    "deleteAccountDesc": "永久删除您的账户和所有数据"
+  },
+  "common": {
+    "search": "搜索产品...",
+    "loading": "加载中...",
+    "error": "出了点问题",
+    "tryAgain": "重试",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "confirm": "确认",
+    "yes": "是",
+    "no": "否",
+    "apply": "应用",
+    "filter": "筛选",
+    "sort": "排序",
+    "priceLowHigh": "价格：从低到高",
+    "priceHighLow": "价格：从高到低",
+    "newest": "最新",
+    "popular": "热门",
+    "all": "全部",
+    "clear": "清除",
+    "select": "选择",
+    "optional": "可选",
+    "products": "个产品",
+    "viewAll": "查看全部"
+  },
+  "filter": {
+    "title": "筛选",
+    "clearAll": "清除全部",
+    "category": "分类",
+    "priceRange": "价格范围",
+    "minRating": "最低评分",
+    "andUp": "及以上",
+    "under25": "$25以下",
+    "range25to50": "$25 – $50",
+    "range50to100": "$50 – $100",
+    "range100to200": "$100 – $200",
+    "over200": "$200以上"
+  },
+  "search": {
+    "placeholder": "搜索维生素、补充剂、护肤品...",
+    "products": "产品",
+    "seeAllResults": "查看所有结果",
+    "recentSearches": "最近搜索",
+    "trending": "热门搜索"
+  },
+  "error": {
+    "title": "出了点问题",
+    "message": "发生了意外错误。请刷新页面或重试。",
+    "tryAgain": "重试"
+  },
+  "admin": {
+    "inventory": {
+      "title": "库存管理",
+      "description": "跟踪和管理产品库存水平",
+      "totalProducts": "总产品数",
+      "inStock": "有货",
+      "lowStock": "库存不足",
+      "outOfStock": "缺货",
+      "searchPlaceholder": "搜索产品...",
+      "all": "全部",
+      "product": "产品",
+      "sku": "SKU",
+      "stock": "库存",
+      "status": "状态",
+      "action": "操作",
+      "noProducts": "未找到产品",
+      "noMatching": "没有匹配当前筛选条件的产品",
+      "stockUpdated": "库存更新成功",
+      "stockUpdateFailed": "库存更新失败"
+    },
+    "orders": {
+      "title": "订单管理",
+      "description": "查看和管理客户订单",
+      "export": "导出",
+      "exported": "订单导出成功",
+      "searchPlaceholder": "搜索订单...",
+      "all": "全部",
+      "pending": "待处理",
+      "processing": "处理中",
+      "shipped": "已发货",
+      "delivered": "已送达",
+      "order": "订单",
+      "customer": "客户",
+      "date": "日期",
+      "total": "总计",
+      "status": "状态",
+      "showing": "显示",
+      "of": "/",
+      "orders": "个订单"
+    },
+    "customers": {
+      "title": "客户管理",
+      "description": "查看和管理您的客户",
+      "totalCustomers": "总客户数",
+      "activeCustomers": "活跃",
+      "newThisMonth": "本月新增",
+      "searchPlaceholder": "搜索客户...",
+      "all": "全部",
+      "active": "活跃",
+      "inactive": "不活跃",
+      "customer": "客户",
+      "email": "邮箱",
+      "orders": "订单",
+      "spent": "消费",
+      "status": "状态",
+      "showing": "显示",
+      "of": "/",
+      "customers": "个客户",
+      "customerDetails": "客户详情",
+      "memberSince": "注册时间",
+      "totalOrders": "总订单",
+      "totalSpent": "总消费",
+      "lastOrder": "最近订单",
+      "statusToggled": "客户状态已更新"
+    }
+  },
+  "footer": {
+    "shop": "商店",
+    "company": "公司",
+    "support": "支持",
+    "legal": "法律",
+    "allProducts": "所有产品",
+    "aboutUs": "关于我们",
+    "careers": "招聘",
+    "press": "媒体",
+    "blog": "博客",
+    "affiliates": "联盟计划",
+    "helpCenter": "帮助中心",
+    "contactUs": "联系我们",
+    "returns": "退换货",
+    "orderStatus": "订单状态",
+    "productSafety": "产品安全",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款",
+    "cookiePolicy": "Cookie政策",
+    "accessibility": "无障碍访问",
+    "newsletterTitle": "首单享85折",
+    "newsletterDesc": "订阅我们的通讯获取独家优惠和健康贴士。",
+    "enterEmail": "输入您的邮箱",
+    "subscribe": "订阅",
+    "brandDesc": "优质健康保健产品，提升您的生活品质。值得信赖，送货上门。",
+    "allRightsReserved": "版权所有。"
+  },
+  "tagline": "您的健康，我们的首要任务",
+  "checkout": {
+    "title": "结账",
+    "contactInfo": "联系信息",
+    "shippingAddress": "收货地址",
+    "shipping": "配送方式",
+    "paymentMethod": "支付方式",
+    "orderSummary": "订单摘要",
+    "placeOrder": "下单",
+    "continue": "继续",
+    "back": "返回",
+    "firstName": "名字",
+    "lastName": "姓氏",
+    "email": "电子邮箱",
+    "streetAddress": "街道地址",
+    "city": "城市",
+    "state": "州/省",
+    "zipCode": "邮政编码",
+    "country": "国家",
+    "phone": "电话号码",
+    "cardNumber": "卡号",
+    "nameOnCard": "持卡人姓名",
+    "expiryDate": "到期日期",
+    "cvv": "CVV",
+    "tax": "税费",
+    "free": "免费",
+    "freeOver": "满${{amount}}免运费",
+    "redirectMessage": "您将被重定向到{{provider}}完成支付。",
+    "orderSuccess": "订单成功下单！",
+    "orderNumber": "订单号",
+    "thankYou": "感谢您的订单",
+    "orderConfirmed": "您的订单已确认，将很快发货。",
+    "steps": {
+      "information": "信息",
+      "shipping": "地址",
+      "delivery": "配送",
+      "payment": "支付",
+      "review": "确认"
+    },
+    "validation": {
+      "validEmail": "请输入有效邮箱",
+      "validPhone": "请输入有效电话",
+      "required": "必填",
+      "addressRequired": "请输入地址",
+      "cityRequired": "请输入城市",
+      "stateRequired": "请输入州/省",
+      "zipRequired": "请输入邮政编码",
+      "countryRequired": "请输入国家"
+    }
+  },
+  "orderConfirmation": {
+    "title": "订单已确认！",
+    "subtitle": "感谢您的购买。我们将很快发送确认邮件。",
+    "orderNumber": "订单号",
+    "itemsOrdered": "已订购商品",
+    "moreItems": "件更多商品",
+    "trackOrder": "跟踪订单",
+    "continueShopping": "继续购物",
+    "timeline": {
+      "placed": "已下单",
+      "justNow": "刚刚",
+      "paymentConfirmed": "支付已确认",
+      "processing": "处理中...",
+      "orderProcessing": "订单处理中",
+      "est12": "预计1-2个工作日",
+      "shipped": "已发货",
+      "est35": "预计3-5个工作日",
+      "delivered": "已送达",
+      "est57": "预计5-7个工作日"
+    }
+  },
+  "orders": {
+    "status": "状态",
+    "date": "日期",
+    "total": "总计",
+    "items": "商品",
+    "processing": "处理中",
+    "shipped": "已发货",
+    "delivered": "已送达",
+    "cancelled": "已取消",
+    "orderDetails": "订单详情",
+    "trackOrder": "跟踪订单"
+  },
+  "joinFamily": {
+    "sectionTag": "加入大家庭",
+    "sectionTitle": "选择您的Camela Group之路",
+    "sectionSubtitle": "无论您是在追求个人健康之旅还是建立事业，Camela Group大家庭中总有一个属于您的位置。",
+    "member": {
+      "tag": "个人用户",
+      "title": "成为会员",
+      "description": "加入我们的健康社区，享受独家优惠、科学健康见解和每次购物的忠诚奖励。",
+      "perk1": "专属会员折扣",
+      "perk2": "新品优先体验",
+      "perk3": "个性化健康建议",
+      "cta": "加入会员"
+    },
+    "partner": {
+      "tag": "商业合作伙伴",
+      "title": "分销合作伙伴",
+      "description": "分享Camela Group的不同之处，助力您的业务增长。我们提供系统、支持和产品——您来建立客户关系。",
+      "perk1": "丰厚利润空间",
+      "perk2": "全面营销支持",
+      "perk3": "高复购率产品",
+      "cta": "申请成为分销商"
+    },
+    "importer": {
+      "tag": "全球合作伙伴",
+      "title": "官方进口商",
+      "description": "通过将Camela Group优质核桃肽产品线引入新的国际市场来拓展您的业务版图。",
+      "perk1": "独家区域代理权",
+      "perk2": "批发价格体系",
+      "perk3": "全程供应链支持",
+      "cta": "成为进口商"
+    }
+  },
+  "apply": {
+    "backToHome": "返回首页",
+    "fullName": "全名",
+    "fullNamePlaceholder": "例如 张三",
+    "phone": "电话号码",
+    "email": "电子邮件地址",
+    "submitting": "提交中...",
+    "successToast": "申请提交成功！",
+    "validation": {
+      "fullName": "请输入全名",
+      "phone": "请输入有效的电话号码",
+      "email": "请输入有效的电子邮件地址",
+      "motivation": "请至少输入20个字符"
+    },
+    "member": {
+      "title": "会员申请",
+      "subtitle": "加入成千上万受益于科学核桃肽营养的家庭。填写表格，我们会尽快联系您。",
+      "motivationLabel": "请告诉我们您的健康目标",
+      "motivationPlaceholder": "分享您的健康目标以及您希望通过Camela Group实现什么...",
+      "submitLabel": "提交申请",
+      "successTitle": "欢迎加入大家庭！",
+      "successMessage": "您的会员申请已收到。我们将在1-2个工作日内与您联系。"
+    },
+    "partner": {
+      "title": "分销合作伙伴申请",
+      "subtitle": "与Camela Group优质生物活性肽产品一起建立蓬勃发展的业务。填写您的信息，我们的团队会与您联系。",
+      "motivationLabel": "您为什么想与Camela集团合作？",
+      "motivationPlaceholder": "简要描述您的商业背景、销售经验和目标市场...",
+      "submitLabel": "申请成为分销商",
+      "successTitle": "申请已提交！",
+      "successMessage": "我们的合作团队将审核您的申请，并在2-3个工作日内与您联系。"
+    },
+    "importer": {
+      "title": "官方进口商申请",
+      "subtitle": "将Camela Group核桃肽产品引入新的国际市场。告诉我们您的网络，我们会跟进。",
+      "motivationLabel": "您为什么想加入Camela集团？",
+      "motivationPlaceholder": "简要描述您的目标、目标市场和现有分销网络...",
+      "submitLabel": "申请成为进口商",
+      "successTitle": "申请已收到！",
+      "successMessage": "我们的全球合作团队将审核您的申请，并在3-5个工作日内与您联系。"
+    }
+  },
+  "testimonials": {
+    "sectionTag": "客户评价",
+    "title": "客户怎么说",
+    "subtitle": "加入数千个信赖Camela Group进行自然健康之旅的家庭。",
+    "ratingScore": "4.9 / 5分",
+    "ratingCount": "来自2,847条评价"
+  },
+  "flashSale": {
+    "tag": "限时抢购",
+    "title": "畅销商品",
+    "subtitle": "限时优惠——不要错过！",
+    "endsIn": "倒计时：",
+    "hours": "小时",
+    "mins": "分钟",
+    "secs": "秒",
+    "viewAll": "查看所有限时优惠"
+  },
+  "brands": {
+    "title": "信赖品牌"
+  },
+  "instagram": {
+    "title": "关注我们的健康之旅",
+    "subtitle": "在您的照片中标记我们，有机会被推荐展示"
+  },
+  "shop": {
+    "allProducts": "所有产品",
+    "productsFound": "个产品",
+    "filters": "筛选",
+    "noProducts": "未找到产品",
+    "noProductsDesc": "请尝试调整筛选条件或搜索其他内容。",
+    "clearFilters": "清除筛选",
+    "previous": "上一页",
+    "next": "下一页"
+  },
+  "wishlist": {
+    "title": "我的心愿单",
+    "empty": "您的心愿单为空",
+    "emptyDesc": "点击任意产品上的心形图标来收藏您喜欢的商品。",
+    "discover": "发现产品",
+    "savedItems": "件收藏商品",
+    "clearAll": "清空全部",
+    "moveToCart": "移入购物车"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "message": "抱歉！您要找的页面不存在或已被移动。让我们帮您回到正轨。",
+    "goBack": "返回",
+    "backToHome": "返回首页",
+    "popularPages": "热门页面"
+  },
+  "about": {
+    "hero": {
+      "badge": "Camela Group Pte. Ltd. · 成立于2026年 · 新加坡",
+      "title1": "通过",
+      "title2": "生物活性科学改善生活",
+      "subtitle": "一家新加坡公司，带来两项世界专利健康创新——LivePure氢水技术和核桃肽营养——直接从工厂送到东南亚千家万户。"
+    },
+    "video": {
+      "tag": "我们的故事",
+      "title": "Camela Group在行动",
+      "subtitle": "了解Camela集团如何将生物活性肽科学带给东南亚的千家万户。"
+    },
+    "factory": {
+      "tag": "制造实力",
+      "title": "工厂直销模式",
+      "description": "这一模式意义重大，因为它节省了大量分销成本。通过直接从我们的先进工厂进行销售，我们消除了不必要的中间商，将节省的成本直接传递给您。",
+      "stat1Value": "67,777",
+      "stat1Label": "平方米",
+      "stat2Value": "9,000",
+      "stat2Label": "吨/年",
+      "stat3Value": "63",
+      "stat3Label": "专利权"
+    },
+    "mission": {
+      "tag": "我们的宗旨",
+      "heading": "使命与愿景",
+      "title": "我们的使命",
+      "description": "通过创新的生物活性肽营养和功能性食品改善生活，使科学验证的健康解决方案惠及东南亚数百万家庭。"
+    },
+    "vision": {
+      "title": "我们的愿景",
+      "description": "成为东南亚领先的生物活性肽和功能性营养公司，通过以科学和品质为基础的创新健康解决方案改变生活。"
+    },
+    "product": {
+      "tag": "旗舰产品",
+      "title": "Camela Group 核桃肽",
+      "subtitle": "采用优质核桃蛋白和先进的酶解技术配制——提供高度可吸收的生物活性营养素，支持整体健康。",
+      "natural": "全天然 · 无防腐剂 · 无色素 · 无添加香料",
+      "manufacturer": "由德州兰利生物科技有限公司制造——中国领先的高科技生物技术企业。"
+    },
+    "benefits": {
+      "brain": "大脑与神经功能",
+      "antioxidant": "抗氧化与抗衰老支持",
+      "bloodSugar": "血糖与胆固醇管理",
+      "immune": "免疫系统增强",
+      "liver": "肝脏健康维护",
+      "sleep": "改善睡眠质量与情绪"
+    },
+    "certs": {
+      "tag": "质量保证",
+      "title": "卓越制造",
+      "subtitle": "每一款Camela产品都符合严格的国际安全、纯度和一致性标准，面向全球市场。",
+      "iso": "食品安全管理体系",
+      "haccp": "危害分析与关键控制点",
+      "halal": "面向所有消费者的认证"
+    },
+    "pipeline": {
+      "tag": "创新",
+      "title": "拓展产品线",
+      "description": "Camela集团持续扩展其功能性健康产品范围，以满足对循证营养日益增长的需求。我们的未来产品线支持健康老龄化、美容、活力、恢复和长期健康。",
+      "cta": "选购当前产品",
+      "soy": "大豆肽",
+      "collagen": "胶原蛋白肽",
+      "functional": "专业功能性食品",
+      "therapeutic": "治疗性膳食解决方案",
+      "beauty": "健康与美容营养产品"
+    },
+    "reach": {
+      "tag": "我们的覆盖",
+      "title": "服务东南亚",
+      "subtitle": "我们的主要市场是东南亚——世界上最具活力和增长最快的健康和保健地区之一。"
+    },
+    "markets": {
+      "singapore": "新加坡",
+      "malaysia": "马来西亚",
+      "indonesia": "印度尼西亚",
+      "thailand": "泰国",
+      "vietnam": "越南",
+      "emerging": "新兴东南亚市场"
+    },
+    "partner": {
+      "tag": "合作",
+      "title": "与我们合作",
+      "description": "Camela集团积极寻求与分销商、医疗保健从业者、健康组织、零售商和战略商业合作伙伴在整个东南亚的合作。我们相信建立基于信任、资源共享和互利增长的长期合作关系。",
+      "getInTouch": "联系我们",
+      "viewProducts": "查看产品"
+    },
+    "contact": {
+      "tag": "联系方式",
+      "title": "联系我们",
+      "email": "邮箱",
+      "phone": "电话",
+      "location": "地址"
+    },
+    "products": {
+      "tag": "我们的产品系列",
+      "title": "两项技术。一个愿景。",
+      "subtitle": "来自制造合作伙伴的工厂直销——世界专利产品为东南亚家庭提供以科学为支撑的健康解决方案。",
+      "hydrogen": {
+        "tag": "LivePure",
+        "name": "氢水机",
+        "badge": "全球专利",
+        "desc": "在韩国、美国和日本获得全球专利的高浓度分子氢技术。荣获2015年日内瓦国际发明展奖项。",
+        "cta": "了解机器"
+      },
+      "peptide": {
+        "tag": "Camela集团",
+        "name": "核桃肽",
+        "badge": "工厂直销",
+        "desc": "通过先进酶解水解的生物活性肽营养——多种肽类型可供选择，所有产品均在GMP认证、ISO 22000及清真认证工厂生产。",
+        "cta": "立即购买"
+      },
+      "factory": {
+        "title": "工厂直销 · 无中间商 · 全球专利",
+        "desc": "我们是制造商。每件产品直接从工厂发货——无零售商、无加价，真正的工厂价格，以全球专利为后盾。"
+      }
+    },
+    "hydrogen": {
+      "tag": "LivePure × Camela集团",
+      "title": "LivePure氢水机",
+      "subtitle": "全球专利分子氢技术——经临床支持，可中和自由基、减少氧化应激，促进心血管和代谢健康。",
+      "videoTitle": "LivePure氢水发生器——官方产品演示",
+      "fights": {
+        "heading": "高浓度分子氢可以帮助对抗：",
+        "bp": { "title": "高血压", "desc": "分子氢强效抗氧化特性可中和自由基，减少与高血压相关的氧化应激和炎症。" },
+        "diabetes": { "title": "糖尿病", "desc": "分子氢减少氧化应激和炎症——糖尿病发展的关键因素——有助于自然管理血糖。" },
+        "fatigue": { "title": "慢性疲劳", "desc": "分子氢通过中和自由基、减少氧化应激和恢复细胞能量水平来对抗疲劳。" },
+        "stroke": { "title": "中风与心脏病发作", "desc": "支持心血管健康，促进最佳血液流动，并通过抗氧化作用帮助降低中风和心脏病发作的风险。" }
+      },
+      "patents": {
+        "heading": "全球专利技术",
+        "footnote": "韩国知识产权局专利注册（2015年）· 美国专利许可（2016年）· 日本专利许可（2018年）· 荣获日内瓦国际发明展及首尔国际发明博览会奖项（2015年）。"
+      }
+    }
+  },
+  "searchResults": {
+    "resultsFor": "搜索结果",
+    "found": "个结果",
+    "noResults": "没有找到 \"{{query}}\" 的结果",
+    "noResultsDesc": "请尝试不同的关键词，检查拼写错误，或浏览我们的分类。",
+    "browseAll": "浏览所有产品"
+  }
+}

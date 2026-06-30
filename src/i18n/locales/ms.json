@@ -1,0 +1,723 @@
+{
+  "nav": {
+    "home": "Utama",
+    "shop": "Kedai",
+    "categories": "Kategori",
+    "about": "Tentang Kami",
+    "dashboard": "Papan Pemuka",
+    "cart": "Troli",
+    "wishlist": "Senarai Hasrat",
+    "login": "Log Masuk",
+    "register": "Daftar",
+    "logout": "Log Keluar",
+    "adminPanel": "Panel Admin",
+    "vitamins": "Vitamin & Suplemen",
+    "personalCare": "Penjagaan Diri",
+    "skincare": "Penjagaan Kulit",
+    "healthDevices": "Peranti Kesihatan",
+    "fitness": "Kecergasan & Kesejahteraan",
+    "nutrition": "Pemakanan & Makanan"
+  },
+  "header": {
+    "freeShipping": "Penghantaran percuma untuk pesanan melebihi $75",
+    "shopNow": "Beli Sekarang",
+    "useCode": "Guna kod",
+    "forOff": "untuk diskaun 10%",
+    "viewAllCategories": "Lihat Semua Kategori"
+  },
+  "home": {
+    "hero": {
+      "title": "Produk Kesihatan & Kesejahteraan Premium",
+      "subtitle": "Temui produk berkualiti untuk gaya hidup sihat anda",
+      "shopNow": "Beli Sekarang",
+      "pillLabel": "Terokai Masa Depan Kesejahteraan Selular",
+      "title1": "Pelihara",
+      "title2": "Tubuh & Minda",
+      "title3": "Secara Semulajadi",
+      "trustedBy": "dipercayai oleh 10,000+ pelanggan",
+      "stat1": "Kualiti Bertauliah",
+      "stat2": "Produk Bertauliah",
+      "stat3": "Kehadiran Global",
+      "stat4": "Keselamatan Makanan"
+    },
+    "categories": {
+      "title": "Layari Mengikut Kategori",
+      "viewAll": "Lihat Semua"
+    },
+    "category": {
+      "title": "Layari Mengikut Kategori",
+      "subtitle": "Beli Mengikut Kategori"
+    },
+    "featured": {
+      "tag": "Pilihan istimewa untuk anda",
+      "title": "Produk Pilihan",
+      "subtitle": "Terokai Koleksi Kami"
+    },
+    "newArrivals": {
+      "title": "Produk Terbaru",
+      "subtitle": "Gaya segar baru tiba"
+    },
+    "newsletter": {
+      "title": "Sentiasa Dikemaskini",
+      "desc": "Langgan untuk mendapatkan tawaran istimewa, hadiah percuma, dan tawaran eksklusif.",
+      "placeholder": "Masukkan e-mel anda",
+      "noSpam": "Tiada spam, berhenti melanggan pada bila-bila masa.",
+      "validEmail": "Sila masukkan alamat e-mel yang sah",
+      "success": "🎉 Anda telah melanggan! Semak e-mel anda untuk hadiah alu-aluan.",
+      "perk1Title": "Tawaran Eksklusif",
+      "perk1Desc": "Diskaun ahli sahaja dan akses awal",
+      "perk2Title": "Penghantaran Percuma",
+      "perk2Desc": "Untuk pesanan melebihi $75",
+      "perk3Title": "Pemulangan Mudah",
+      "perk3Desc": "30 hari pemulangan tanpa kerumitan"
+    },
+    "joinFamily": {
+      "title": "Sertai Keluarga Camela",
+      "subtitle": "Jadilah sebahagian daripada komuniti kami yang semakin berkembang",
+      "member": {
+        "title": "Menjadi Ahli",
+        "description": "Sertai program kesetiaan kami dan nikmati ganjaran eksklusif, akses awal ke produk baharu, dan cadangan yang diperibadikan.",
+        "cta": "Sertai Sekarang"
+      },
+      "partner": {
+        "title": "Partner Pengedaran",
+        "description": "Bekerjasama dengan kami untuk mengedarkan produk kesihatan premium. Margin yang kompetitif, sokongan pemasaran, dan rantaian bekalan yang boleh dipercayai.",
+        "cta": "Mohon sebagai Partner"
+      },
+      "importer": {
+        "title": "Pengimport Antarabangsa",
+        "description": "Import produk berkualiti kami ke pasaran anda. Kami menyediakan dokumentasi, sokongan pematuhan, dan harga pukal.",
+        "cta": "Hubungi Kami"
+      }
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Selamat Kembali",
+      "subtitle": "Log masuk ke akaun anda",
+      "email": "Alamat E-mel",
+      "password": "Kata Laluan",
+      "rememberMe": "Ingat saya",
+      "forgotPassword": "Lupa kata laluan?",
+      "signIn": "Log Masuk",
+      "noAccount": "Tiada akaun?",
+      "signUp": "Daftar",
+      "demoCredentials": "Kelayakan demo (klik untuk isi)",
+      "username": "Nama Pengguna"
+    },
+    "register": {
+      "title": "Cipta Akaun",
+      "subtitle": "Sertai keluarga Camela hari ini",
+      "firstName": "Nama Pertama",
+      "lastName": "Nama Terakhir",
+      "email": "Alamat E-mel",
+      "password": "Kata Laluan",
+      "confirmPassword": "Sahkan Kata Laluan",
+      "agreeTerms": "Saya bersetuju dengan Terma dan Syarat",
+      "createAccount": "Cipta Akaun",
+      "hasAccount": "Sudah mempunyai akaun?",
+      "signIn": "Log masuk"
+    },
+    "forgotPassword": {
+      "title": "Lupa kata laluan?",
+      "subtitle": "Masukkan e-mel anda dan kami akan menghantar pautan tetapan semula.",
+      "email": "Alamat E-mel",
+      "sendReset": "Hantar Pautan Tetapan Semula",
+      "sending": "Menghantar...",
+      "backToLogin": "Kembali ke Log Masuk",
+      "checkInbox": "Semak peti masuk anda",
+      "sentResetLink": "Kami telah menghantar pautan tetapan semula ke",
+      "didntReceive": "Tidak menerimanya? Semak folder spam anda atau",
+      "tryAgain": "cuba lagi"
+    },
+    "validation": {
+      "firstNameRequired": "Nama pertama diperlukan",
+      "lastNameRequired": "Nama terakhir diperlukan",
+      "validEmail": "Sila masukkan e-mel yang sah",
+      "passwordMin": "Kata laluan mestilah sekurang-kurangnya 6 aksara",
+      "passwordsMatch": "Kata laluan tidak sepadan",
+      "acceptTerms": "Anda mesti menerima terma",
+      "usernameRequired": "Nama pengguna diperlukan",
+      "passwordMin4": "Kata laluan mestilah sekurang-kurangnya 4 aksara"
+    }
+  },
+  "cart": {
+    "title": "Troli Beli-belah",
+    "empty": "Troli anda kosong",
+    "emptyDesc": "Nampaknya anda belum menambah apa-apa lagi.",
+    "continueShopping": "Teruskan Membeli-belah",
+    "subtotal": "Jumlah",
+    "shipping": "Penghantaran",
+    "total": "Jumlah Keseluruhan",
+    "checkout": "Teruskan ke Pembayaran",
+    "remove": "Buang",
+    "discount": "Diskaun",
+    "free": "Percuma",
+    "addMore": "Tambah",
+    "forFreeShipping": "lagi untuk penghantaran percuma!",
+    "clearCart": "Kosongkan Troli",
+    "couponTitle": "Ada kupon?",
+    "couponPlaceholder": "Masukkan kod kupon",
+    "orderSummary": "Ringkasan Pesanan",
+    "tax": "Cukai",
+    "freeShippingMessage": "Anda layak untuk penghantaran percuma!",
+    "perItem": "setiap item",
+    "itemsInCart": "item dalam troli anda"
+  },
+  "product": {
+    "addToCart": "Tambah ke Troli",
+    "inStock": "Dalam Stok",
+    "outOfStock": "Habis Stok",
+    "description": "Penerangan",
+    "reviews": "Ulasan",
+    "related": "Produk Berkaitan",
+    "quantity": "Kuantiti",
+    "specifications": "Spesifikasi",
+    "ingredients": "Bahan-bahan",
+    "usage": "Penggunaan",
+    "size": "Saiz",
+    "color": "Warna",
+    "sizeGuide": "Panduan Saiz",
+    "quickView": "Lihat Pantas",
+    "notFound": "Produk tidak dijumpai",
+    "backToShop": "Kembali ke Kedai",
+    "selectSize": "Sila pilih saiz",
+    "linkCopied": "Pautan disalin ke papan klip!",
+    "faq": "Soalan Lazim",
+    "youMayAlsoLike": "Anda Mungkin Juga Suka",
+    "viewAll": "Lihat semua",
+    "rating": "Penilaian",
+    "availability": "Ketersediaan",
+    "reviewsFrom": "Ulasan dipaparkan daripada pembeli yang disahkan.",
+    "feature1": "Bahan berkualiti premium",
+    "feature2": "Diperoleh dan dihasilkan secara beretika",
+    "feature3": "Direka untuk ketahanan dan keselesaan",
+    "feature4": "Tersedia dalam pelbagai variasi",
+    "freeShipping": "Penghantaran Percuma",
+    "freeShippingDesc": "Melebihi $75",
+    "easyReturns": "Pemulangan Mudah",
+    "easyReturnsDesc": "30 hari",
+    "securePay": "Bayaran Selamat",
+    "securePayDesc": "256-bit SSL"
+  },
+  "dashboard": {
+    "title": "Papan Pemuka Saya",
+    "overview": "Gambaran Keseluruhan",
+    "orders": "Pesanan Saya",
+    "addresses": "Alamat",
+    "wishlist": "Senarai Hasrat",
+    "settings": "Tetapan",
+    "profile": "Profil",
+    "personalInfo": "Maklumat Peribadi",
+    "saveChanges": "Simpan Perubahan",
+    "welcome": "Selamat kembali",
+    "totalOrders": "Jumlah Pesanan",
+    "totalSpent": "Jumlah Perbelanjaan",
+    "recentOrders": "Pesanan Terkini",
+    "viewAllOrders": "Lihat Semua Pesanan",
+    "noOrders": "Tiada pesanan lagi",
+    "startShopping": "Mula Membeli-belah",
+    "addAddress": "Tambah Alamat Baru",
+    "editAddress": "Edit Alamat",
+    "deleteAddress": "Padam Alamat",
+    "setDefault": "Tetapkan sebagai Lalai",
+    "defaultAddress": "Lalai",
+    "dangerZone": "Zon Bahaya",
+    "deleteAccount": "Padam Akaun",
+    "deleteAccountDesc": "Padam akaun anda dan semua data secara kekal"
+  },
+  "common": {
+    "search": "Cari produk...",
+    "loading": "Memuatkan...",
+    "error": "Sesuatu telah berlaku",
+    "tryAgain": "Cuba Lagi",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Padam",
+    "edit": "Edit",
+    "close": "Tutup",
+    "confirm": "Sahkan",
+    "yes": "Ya",
+    "no": "Tidak",
+    "apply": "Mohon",
+    "filter": "Tapis",
+    "sort": "Susun",
+    "priceLowHigh": "Harga: Rendah ke Tinggi",
+    "priceHighLow": "Harga: Tinggi ke Rendah",
+    "newest": "Terbaharu",
+    "popular": "Popular",
+    "all": "Semua",
+    "clear": "Kosongkan",
+    "select": "Pilih",
+    "optional": "pilihan",
+    "products": "produk",
+    "viewAll": "Lihat semua"
+  },
+  "filter": {
+    "title": "Penapis",
+    "clearAll": "Kosongkan semua",
+    "category": "Kategori",
+    "priceRange": "Julat Harga",
+    "minRating": "Penilaian Minimum",
+    "andUp": "& ke atas",
+    "under25": "Bawah $25",
+    "range25to50": "$25 – $50",
+    "range50to100": "$50 – $100",
+    "range100to200": "$100 – $200",
+    "over200": "Melebihi $200"
+  },
+  "search": {
+    "placeholder": "Cari vitamin, suplemen, penjagaan kulit...",
+    "products": "Produk",
+    "seeAllResults": "Lihat semua keputusan untuk",
+    "recentSearches": "Carian Terkini",
+    "trending": "Sedang Trending"
+  },
+  "error": {
+    "title": "Sesuatu telah berlaku",
+    "message": "Ralat yang tidak dijangka berlaku. Sila muat semula halaman atau cuba lagi.",
+    "tryAgain": "Cuba Lagi"
+  },
+  "admin": {
+    "inventory": {
+      "title": "Pengurusan Inventori",
+      "description": "Jejak dan urus tahap stok produk",
+      "totalProducts": "Jumlah Produk",
+      "inStock": "Dalam Stok",
+      "lowStock": "Stok Rendah",
+      "outOfStock": "Habis Stok",
+      "searchPlaceholder": "Cari produk...",
+      "all": "Semua",
+      "product": "Produk",
+      "sku": "SKU",
+      "stock": "Stok",
+      "status": "Status",
+      "action": "Tindakan",
+      "noProducts": "Tiada produk dijumpai",
+      "noMatching": "Tiada produk sepadan dengan penapis semasa",
+      "stockUpdated": "Stok berjaya dikemaskini",
+      "stockUpdateFailed": "Gagal mengemaskini stok"
+    },
+    "orders": {
+      "title": "Pengurusan Pesanan",
+      "description": "Lihat dan urus pesanan pelanggan",
+      "export": "Eksport",
+      "exported": "Pesanan berjaya dieksport",
+      "searchPlaceholder": "Cari pesanan...",
+      "all": "Semua",
+      "pending": "Menunggu",
+      "processing": "Memproses",
+      "shipped": "Dihantar",
+      "delivered": "Diterima",
+      "order": "Pesanan",
+      "customer": "Pelanggan",
+      "date": "Tarikh",
+      "total": "Jumlah",
+      "status": "Status",
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "orders": "pesanan"
+    },
+    "customers": {
+      "title": "Pengurusan Pelanggan",
+      "description": "Lihat dan urus pelanggan anda",
+      "totalCustomers": "Jumlah Pelanggan",
+      "activeCustomers": "Aktif",
+      "newThisMonth": "Baru Bulan Ini",
+      "searchPlaceholder": "Cari pelanggan...",
+      "all": "Semua",
+      "active": "Aktif",
+      "inactive": "Tidak Aktif",
+      "customer": "Pelanggan",
+      "email": "E-mel",
+      "orders": "Pesanan",
+      "spent": "Perbelanjaan",
+      "status": "Status",
+      "showing": "Menunjukkan",
+      "of": "daripada",
+      "customers": "pelanggan",
+      "customerDetails": "Butiran Pelanggan",
+      "memberSince": "Ahli Sejak",
+      "totalOrders": "Jumlah Pesanan",
+      "totalSpent": "Jumlah Perbelanjaan",
+      "lastOrder": "Pesanan Terakhir",
+      "statusToggled": "Status pelanggan dikemaskini"
+    }
+  },
+  "footer": {
+    "shop": "Kedai",
+    "company": "Syarikat",
+    "support": "Sokongan",
+    "legal": "Undang-undang",
+    "allProducts": "Semua Produk",
+    "aboutUs": "Tentang Kami",
+    "careers": "Kerjaya",
+    "press": "Akhbar",
+    "blog": "Blog",
+    "affiliates": "Affiliate",
+    "helpCenter": "Pusat Bantuan",
+    "contactUs": "Hubungi Kami",
+    "returns": "Pemulangan & Pertukaran",
+    "orderStatus": "Status Pesanan",
+    "productSafety": "Keselamatan Produk",
+    "privacyPolicy": "Dasar Privasi",
+    "termsOfService": "Terma Perkhidmatan",
+    "cookiePolicy": "Dasar Cookie",
+    "accessibility": "Kebolehcapaian",
+    "newsletterTitle": "Dapatkan 15% diskaun pesanan pertama anda",
+    "newsletterDesc": "Langgan surat berita kami untuk tawaran eksklusif dan tip kesihatan.",
+    "enterEmail": "Masukkan e-mel anda",
+    "subscribe": "Langgan",
+    "brandDesc": "Produk kesihatan dan kesejahteraan premium untuk gaya hidup yang lebih baik. Kualiti yang boleh dipercayai, dihantar ke pintu anda.",
+    "allRightsReserved": "Hak cipta terpelihara."
+  },
+  "tagline": "Kesihatan Anda, Keutamaan Kami",
+  "checkout": {
+    "title": "Pembayaran",
+    "contactInfo": "Maklumat Hubungan",
+    "shippingAddress": "Alamat Penghantaran",
+    "shipping": "Kaedah Penghantaran",
+    "paymentMethod": "Kaedah Pembayaran",
+    "orderSummary": "Ringkasan Pesanan",
+    "placeOrder": "Tempah Pesanan",
+    "continue": "Teruskan",
+    "back": "Kembali",
+    "firstName": "Nama Pertama",
+    "lastName": "Nama Terakhir",
+    "email": "Alamat E-mel",
+    "streetAddress": "Alamat Jalan",
+    "city": "Bandar",
+    "state": "Negeri",
+    "zipCode": "Poskod",
+    "country": "Negara",
+    "phone": "Nombor Telefon",
+    "cardNumber": "Nombor Kad",
+    "nameOnCard": "Nama pada Kad",
+    "expiryDate": "Tarikh Luput",
+    "cvv": "CVV",
+    "tax": "Cukai",
+    "free": "Percuma",
+    "freeOver": "Percuma untuk pesanan melebihi ${{amount}}",
+    "redirectMessage": "Anda akan dialihkan ke {{provider}} untuk menyelesaikan pembayaran.",
+    "orderSuccess": "Pesanan Berjaya Ditempah!",
+    "orderNumber": "Nombor Pesanan",
+    "thankYou": "Terima kasih atas pesanan anda",
+    "orderConfirmed": "Pesanan anda telah disahkan dan akan dihantar tidak lama lagi.",
+    "steps": {
+      "information": "Maklumat",
+      "shipping": "Alamat",
+      "delivery": "Penghantaran",
+      "payment": "Pembayaran",
+      "review": "Semakan"
+    },
+    "validation": {
+      "validEmail": "E-mel yang sah diperlukan",
+      "validPhone": "Telefon yang sah diperlukan",
+      "required": "Diperlukan",
+      "addressRequired": "Alamat diperlukan",
+      "cityRequired": "Bandar diperlukan",
+      "stateRequired": "Negeri diperlukan",
+      "zipRequired": "Poskod diperlukan",
+      "countryRequired": "Negara diperlukan"
+    }
+  },
+  "orderConfirmation": {
+    "title": "Pesanan Disahkan!",
+    "subtitle": "Terima kasih atas pembelian anda. Kami akan menghantar e-mel pengesahan tidak lama lagi.",
+    "orderNumber": "Nombor Pesanan",
+    "itemsOrdered": "Item Ditempah",
+    "moreItems": "item lagi",
+    "trackOrder": "Jejak Pesanan",
+    "continueShopping": "Teruskan Membeli-belah",
+    "timeline": {
+      "placed": "Pesanan Dibuat",
+      "justNow": "Baru sahaja",
+      "paymentConfirmed": "Pembayaran Disahkan",
+      "processing": "Memproses...",
+      "orderProcessing": "Pesanan Diproses",
+      "est12": "Anggaran 1–2 hari perniagaan",
+      "shipped": "Dihantar",
+      "est35": "Anggaran 3–5 hari perniagaan",
+      "delivered": "Dihantar",
+      "est57": "Anggaran 5–7 hari perniagaan"
+    }
+  },
+  "orders": {
+    "status": "Status",
+    "date": "Tarikh",
+    "total": "Jumlah",
+    "items": "Item",
+    "processing": "Memproses",
+    "shipped": "Dihantar",
+    "delivered": "Diterima",
+    "cancelled": "Dibatalkan",
+    "orderDetails": "Butiran Pesanan",
+    "trackOrder": "Jejaki Pesanan"
+  },
+  "joinFamily": {
+    "sectionTag": "Sertai Keluarga",
+    "sectionTitle": "Pilih Laluan Anda dengan Camela Group",
+    "sectionSubtitle": "Sama ada anda dalam perjalanan kesejahteraan peribadi atau membina perniagaan, ada tempat untuk anda dalam keluarga Camela Group.",
+    "member": {
+      "tag": "Untuk Individu",
+      "title": "Menjadi Ahli",
+      "description": "Sertai komuniti kesejahteraan kami dan nikmati keistimewaan eksklusif, pandangan kesihatan berasaskan sains, dan ganjaran kesetiaan bagi setiap pembelian.",
+      "perk1": "Diskaun Ahli Eksklusif",
+      "perk2": "Akses Awal ke Produk Baru",
+      "perk3": "Pandangan Kesihatan Peribadi",
+      "cta": "Sertai sebagai Ahli"
+    },
+    "partner": {
+      "tag": "Untuk Rakan Niaga",
+      "title": "Rakan Pengedaran",
+      "description": "Kembangkan perniagaan anda dengan berkongsi perbezaan Camela Group. Kami menyediakan sistem, sokongan, dan produk — anda membina hubungan.",
+      "perk1": "Margin Keuntungan Menarik",
+      "perk2": "Sokongan Pemasaran Penuh",
+      "perk3": "Produk Pengekalan Tinggi",
+      "cta": "Mohon sebagai DP"
+    },
+    "importer": {
+      "tag": "Untuk Rakan Global",
+      "title": "Pengimport Rasmi",
+      "description": "Kembangkan portfolio anda dengan memperkenalkan barisan peptida walnut premium Camela Group ke pasaran antarabangsa baru secara berskala.",
+      "perk1": "Hak Wilayah Eksklusif",
+      "perk2": "Peringkat Harga Borong",
+      "perk3": "Sokongan Rantaian Bekalan Penuh",
+      "cta": "Menjadi Pengimport"
+    }
+  },
+  "apply": {
+    "backToHome": "Kembali ke Utama",
+    "fullName": "Nama Penuh",
+    "fullNamePlaceholder": "cth. Ahmad bin Ali",
+    "phone": "Nombor Telefon",
+    "email": "Alamat E-mel",
+    "submitting": "Menghantar...",
+    "successToast": "Permohonan berjaya dihantar!",
+    "validation": {
+      "fullName": "Nama penuh diperlukan",
+      "phone": "Masukkan nombor telefon yang sah",
+      "email": "Masukkan alamat e-mel yang sah",
+      "motivation": "Sila tulis sekurang-kurangnya 20 aksara"
+    },
+    "member": {
+      "title": "Permohonan Keahlian",
+      "subtitle": "Sertai ribuan keluarga yang mendapat manfaat daripada pemakanan peptida walnut berasaskan sains. Lengkapkan borang dan kami akan menghubungi anda.",
+      "motivationLabel": "Beritahu kami tentang matlamat kesihatan anda",
+      "motivationPlaceholder": "Kongsikan matlamat kesejahteraan anda dan apa yang anda harap capai dengan Camela Group...",
+      "submitLabel": "Hantar Permohonan",
+      "successTitle": "Selamat Datang ke Keluarga!",
+      "successMessage": "Permohonan keahlian anda telah diterima. Kami akan menghubungi anda dalam 1–2 hari perniagaan."
+    },
+    "partner": {
+      "title": "Permohonan Rakan Pengedaran",
+      "subtitle": "Bina perniagaan yang berkembang maju dengan produk peptida bioaktif premium Camela Group. Isikan butiran anda dan pasukan kami akan menghubungi.",
+      "motivationLabel": "Mengapa anda ingin bekerjasama dengan Camela Group?",
+      "motivationPlaceholder": "Huraikan secara ringkas latar belakang perniagaan, pengalaman jualan, dan pasaran sasaran anda...",
+      "submitLabel": "Mohon sebagai DP",
+      "successTitle": "Permohonan Dihantar!",
+      "successMessage": "Pasukan perkongsian kami akan menyemak permohonan anda dan menghubungi dalam 2–3 hari perniagaan."
+    },
+    "importer": {
+      "title": "Permohonan Pengimport Rasmi",
+      "subtitle": "Bawa produk peptida walnut Camela Group ke pasaran antarabangsa baru. Beritahu kami tentang rangkaian anda dan kami akan menguruskan selebihnya.",
+      "motivationLabel": "Mengapa anda ingin menyertai Camela Group?",
+      "motivationPlaceholder": "Huraikan secara ringkas matlamat, pasaran sasaran, dan rangkaian pengedaran sedia ada anda...",
+      "submitLabel": "Mohon sebagai Pengimport",
+      "successTitle": "Permohonan Diterima!",
+      "successMessage": "Pasukan perkongsian global kami akan menyemak permohonan anda dan menghubungi dalam 3–5 hari perniagaan."
+    }
+  },
+  "testimonials": {
+    "sectionTag": "Testimoni",
+    "title": "Apa Kata Pelanggan Kami",
+    "subtitle": "Sertai ribuan keluarga yang mempercayai Camela Group untuk perjalanan kesejahteraan semulajadi mereka.",
+    "ratingScore": "4.9 daripada 5",
+    "ratingCount": "daripada 2,847 ulasan"
+  },
+  "flashSale": {
+    "tag": "Jualan Kilat",
+    "title": "Terlaris",
+    "subtitle": "Tawaran masa terhad — jangan lepaskan!",
+    "endsIn": "Tamat dalam:",
+    "hours": "Jam",
+    "mins": "Min",
+    "secs": "Saat",
+    "viewAll": "Lihat Semua Tawaran Kilat"
+  },
+  "brands": {
+    "title": "Jenama Dipercayai"
+  },
+  "instagram": {
+    "title": "Ikuti Perjalanan Kesejahteraan Kami",
+    "subtitle": "Tag kami dalam foto anda untuk peluang dipaparkan"
+  },
+  "shop": {
+    "allProducts": "Semua Produk",
+    "productsFound": "produk dijumpai",
+    "filters": "Penapis",
+    "noProducts": "Tiada produk dijumpai",
+    "noProductsDesc": "Cuba laraskan penapis anda atau cari sesuatu yang lain.",
+    "clearFilters": "Kosongkan Penapis",
+    "previous": "Sebelumnya",
+    "next": "Seterusnya"
+  },
+  "wishlist": {
+    "title": "Senarai Hajat Saya",
+    "empty": "Senarai hajat anda kosong",
+    "emptyDesc": "Simpan item yang anda suka dengan mengklik ikon hati pada mana-mana produk.",
+    "discover": "Terokai Produk",
+    "savedItems": "item disimpan",
+    "clearAll": "Kosongkan semua",
+    "moveToCart": "Pindah ke Troli"
+  },
+  "notFound": {
+    "title": "Halaman Tidak Dijumpai",
+    "message": "Oops! Halaman yang anda cari tidak wujud atau telah dipindahkan. Mari kami bantu anda kembali ke landasan.",
+    "goBack": "Kembali",
+    "backToHome": "Kembali ke Utama",
+    "popularPages": "Halaman popular"
+  },
+  "about": {
+    "hero": {
+      "badge": "Camela Group Pte. Ltd. · Est. 2026 · Singapura",
+      "title1": "Meningkatkan Kehidupan Melalui",
+      "title2": "Sains Bioaktif",
+      "subtitle": "Sebuah syarikat Singapura yang membawa dua inovasi kesihatan berpaten dunia — Teknologi Air Hidrogen LivePure dan Nutrisi Peptida Walnut — terus dari kilang ke keluarga di seluruh Asia Tenggara."
+    },
+    "video": {
+      "tag": "Kisah Kami",
+      "title": "Camela Group Beraksi",
+      "subtitle": "Lihat bagaimana Camela Group membawa sains peptida bioaktif kepada keluarga di seluruh Asia Tenggara."
+    },
+    "factory": {
+      "tag": "Kuasa Pembuatan",
+      "title": "Model Jualan Terus Dari Kilang",
+      "description": "Ini penting kerana ia menjimatkan banyak kos pengedaran. Dengan menggunakan model jualan langsung terus dari kemudahan canggih kami, kami menghapuskan orang tengah yang tidak perlu dan menyampaikan penjimatan terus kepada anda.",
+      "stat1Value": "67,777",
+      "stat1Label": "Meter Persegi",
+      "stat2Value": "9,000",
+      "stat2Label": "Tan/Tahun",
+      "stat3Value": "63",
+      "stat3Label": "Hak Paten"
+    },
+    "mission": {
+      "tag": "Tujuan Kami",
+      "heading": "Misi & Visi",
+      "title": "Misi Kami",
+      "description": "Untuk meningkatkan kehidupan melalui nutrisi peptida bioaktif inovatif dan makanan berfungsi, menjadikan penyelesaian kesejahteraan yang terbukti secara saintifik dapat diakses oleh berjuta-juta keluarga di Asia Tenggara."
+    },
+    "vision": {
+      "title": "Visi Kami",
+      "description": "Untuk menjadi syarikat peptida bioaktif dan nutrisi berfungsi yang terkemuka di Asia Tenggara, mengubah kehidupan melalui penyelesaian kesejahteraan inovatif yang berasaskan sains dan kualiti."
+    },
+    "product": {
+      "tag": "Produk Utama",
+      "title": "Camela Group Peptida Walnut",
+      "subtitle": "Diformulasi menggunakan protein walnut premium dan teknologi hidrolisis enzimatik termaju — menyampaikan nutrien bioaktif yang sangat boleh diserap untuk menyokong kesihatan keseluruhan.",
+      "natural": "Semua Semulajadi · Tiada Pengawet · Tiada Pewarna · Tiada Perisa Tambahan",
+      "manufacturer": "Dikilangkan oleh Dezhou Lanli Biotechnology Co., Ltd. — sebuah perusahaan bioteknologi berteknologi tinggi terkemuka di China."
+    },
+    "benefits": {
+      "brain": "Fungsi Otak & Neurologi",
+      "antioxidant": "Sokongan Antioksidan & Anti-Penuaan",
+      "bloodSugar": "Pengurusan Gula Darah & Kolesterol",
+      "immune": "Peningkatan Sistem Imun",
+      "liver": "Penyelenggaraan Kesihatan Hati",
+      "sleep": "Kualiti Tidur & Mood yang Lebih Baik"
+    },
+    "certs": {
+      "tag": "Jaminan Kualiti",
+      "title": "Kecemerlangan Pembuatan",
+      "subtitle": "Setiap produk Camela memenuhi standard antarabangsa yang ketat untuk keselamatan, ketulenan, dan konsistensi bagi pasaran global.",
+      "iso": "Sistem Pengurusan Keselamatan Makanan",
+      "haccp": "Analisis Bahaya & Titik Kawalan Kritikal",
+      "halal": "Disahkan untuk Semua Pengguna"
+    },
+    "pipeline": {
+      "tag": "Inovasi",
+      "title": "Mengembangkan Portfolio Kami",
+      "description": "Camela Group terus mengembangkan rangkaian produk kesihatan berfungsinya untuk memenuhi permintaan yang semakin meningkat bagi nutrisi berasaskan bukti. Saluran paip masa depan kami menyokong penuaan sihat, kecantikan, vitaliti, pemulihan, dan kesejahteraan jangka panjang.",
+      "cta": "Beli Produk Semasa",
+      "soy": "Peptida Soya",
+      "collagen": "Peptida Kolagen",
+      "functional": "Makanan Berfungsi Khusus",
+      "therapeutic": "Penyelesaian Makanan Terapeutik",
+      "beauty": "Produk Nutrisi Kesihatan & Kecantikan"
+    },
+    "reach": {
+      "tag": "Jangkauan Kami",
+      "title": "Melayani Asia Tenggara",
+      "subtitle": "Pasaran utama kami adalah Asia Tenggara — salah satu wilayah kesihatan dan kesejahteraan yang paling dinamik dan berkembang pesat di dunia."
+    },
+    "markets": {
+      "singapore": "Singapura",
+      "malaysia": "Malaysia",
+      "indonesia": "Indonesia",
+      "thailand": "Thailand",
+      "vietnam": "Vietnam",
+      "emerging": "Pasaran SEA yang Sedang Muncul"
+    },
+    "partner": {
+      "tag": "Kolaborasi",
+      "title": "Bekerjasama Dengan Kami",
+      "description": "Camela Group secara aktif mencari perkongsian dengan pengedar, pengamal penjagaan kesihatan, organisasi kesejahteraan, peruncit, dan rakan niaga strategik di seluruh Asia Tenggara. Kami percaya dalam membina hubungan jangka panjang berdasarkan kepercayaan, perkongsian sumber, dan pertumbuhan bersama.",
+      "getInTouch": "Hubungi Kami",
+      "viewProducts": "Lihat Produk"
+    },
+    "contact": {
+      "tag": "Hubungi",
+      "title": "Hubungi Kami",
+      "email": "E-mel",
+      "phone": "Telefon",
+      "location": "Lokasi"
+    },
+    "products": {
+      "tag": "Produk Kami",
+      "title": "Dua Teknologi. Satu Visi.",
+      "subtitle": "Terus dari kilang pengilang kami — produk berpaten dunia yang memberikan penyelesaian kesihatan disokong sains kepada keluarga di seluruh Asia Tenggara.",
+      "hydrogen": {
+        "tag": "LivePure",
+        "name": "Mesin Air Hidrogen",
+        "badge": "Berpaten Dunia",
+        "desc": "Teknologi hidrogen molekul berkonsentrasi tinggi dengan paten berdaftar di Korea, Amerika Syarikat dan Jepun. Dianugerahkan di Pameran Antarabangsa Ciptaan, Geneva 2015.",
+        "cta": "Lihat Mesin"
+      },
+      "peptide": {
+        "tag": "Camela Group",
+        "name": "Peptida Walnut",
+        "badge": "Terus Kilang",
+        "desc": "Nutrisi peptida bioaktif melalui hidrolisis enzimatik termaju — pelbagai jenis peptida tersedia, semua dikilangkan di kemudahan bertauliah GMP, ISO 22000 & HALAL.",
+        "cta": "Beli Sekarang"
+      },
+      "factory": {
+        "title": "Terus Kilang · Tiada Orang Tengah · Paten Dunia",
+        "desc": "Kami adalah pengeluar. Setiap produk dihantar terus dari kilang kami kepada anda — tiada peruncit, tiada markup, harga kilang sebenar disokong paten global."
+      }
+    },
+    "hydrogen": {
+      "tag": "LivePure × Camela Group",
+      "title": "Mesin Air Hidrogen LivePure",
+      "subtitle": "Teknologi hidrogen molekul berpaten dunia — disokong klinikal untuk meneutralkan radikal bebas, mengurangkan tekanan oksidatif, dan menggalakkan kesejahteraan kardiovaskular dan metabolik.",
+      "videoTitle": "Penjana Air Hidrogen LivePure — Demo Produk Rasmi",
+      "fights": {
+        "heading": "Hidrogen Molekul Berkonsentrasi Tinggi Boleh Membantu Mengatasi:",
+        "bp": { "title": "Tekanan Darah Tinggi", "desc": "Sifat antioksidan hidrogen molekul yang kuat meneutralkan radikal bebas, mengurangkan tekanan oksidatif dan keradangan yang berkaitan dengan tekanan darah tinggi." },
+        "diabetes": { "title": "Diabetes", "desc": "Hidrogen molekul mengurangkan tekanan oksidatif dan keradangan — faktor utama dalam perkembangan diabetes — membantu mengurus gula darah secara semulajadi." },
+        "fatigue": { "title": "Keletihan Kronik", "desc": "Hidrogen molekul memerangi keletihan dengan meneutralkan radikal bebas, mengurangkan tekanan oksidatif, dan memulihkan tahap tenaga selular keseluruhan." },
+        "stroke": { "title": "Strok & Serangan Jantung", "desc": "Menyokong kesihatan kardiovaskular, menggalakkan aliran darah yang optimum, dan membantu mengurangkan risiko strok dan serangan jantung melalui tindakan antioksidan." }
+      },
+      "patents": {
+        "heading": "Teknologi Berpaten Dunia",
+        "footnote": "Paten berdaftar di Pejabat Harta Intelek Korea (2015) · Lesen Paten AS (2016) · Lesen Paten Jepun (2018) · Dianugerahkan di Pameran Antarabangsa Ciptaan Geneva & Pameran Ciptaan Antarabangsa Seoul (2015)."
+      }
+    }
+  },
+  "searchResults": {
+    "resultsFor": "Hasil carian untuk",
+    "found": "hasil dijumpai",
+    "noResults": "Tiada hasil untuk \"{{query}}\"",
+    "noResultsDesc": "Cuba kata kunci yang berbeza, semak kesilapan ejaan, atau layari kategori kami di bawah.",
+    "browseAll": "Layari Semua Produk"
+  }
+}

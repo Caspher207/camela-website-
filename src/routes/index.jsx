@@ -1,0 +1,113 @@
+import { lazy, Suspense } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import MainLayout from '../layouts/MainLayout'
+import AuthLayout from '../layouts/AuthLayout'
+import DashboardLayout from '../layouts/DashboardLayout'
+import AdminLayout from '../layouts/AdminLayout'
+import ProtectedRoute from './ProtectedRoute'
+import AdminRoute from './AdminRoute'
+import { PageSpinner } from '../components/ui/Spinner'
+
+const Home = lazy(() => import('../pages/Home'))
+const Shop = lazy(() => import('../pages/Shop'))
+const ProductDetail = lazy(() => import('../pages/Product'))
+const Cart = lazy(() => import('../pages/Cart'))
+const Wishlist = lazy(() => import('../pages/Wishlist'))
+const Search = lazy(() => import('../pages/Search'))
+const Checkout = lazy(() => import('../pages/Checkout'))
+const OrderConfirmation = lazy(() => import('../pages/Checkout/OrderConfirmation'))
+
+const Login = lazy(() => import('../pages/Auth/Login'))
+const Register = lazy(() => import('../pages/Auth/Register'))
+const ForgotPassword = lazy(() => import('../pages/Auth/ForgotPassword'))
+
+const DashboardHome = lazy(() => import('../pages/Dashboard'))
+const DashboardProfile = lazy(() => import('../pages/Dashboard/Profile'))
+const DashboardOrders = lazy(() => import('../pages/Dashboard/Orders'))
+const DashboardAddresses = lazy(() => import('../pages/Dashboard/Addresses'))
+const DashboardSettings = lazy(() => import('../pages/Dashboard/Settings'))
+const DashboardWishlist = lazy(() => import('../pages/Dashboard/DashboardWishlist'))
+
+const About = lazy(() => import('../pages/About'))
+const Apply = lazy(() => import('../pages/Apply'))
+const NotFound = lazy(() => import('../pages/NotFound'))
+
+const AdminOverview = lazy(() => import('../pages/Admin'))
+const AdminProducts = lazy(() => import('../pages/Admin/Products'))
+const AdminOrders = lazy(() => import('../pages/Admin/AdminOrders'))
+const AdminCustomers = lazy(() => import('../pages/Admin/Customers'))
+const AdminAnalytics = lazy(() => import('../pages/Admin/Analytics'))
+const AdminInventory = lazy(() => import('../pages/Admin/Inventory'))
+const AdminSettings = lazy(() => import('../pages/Admin/AdminSettings'))
+
+const AppRoutes = () => (
+  <Suspense fallback={<PageSpinner />}>
+    <Routes>
+      {/* Main layout */}
+      <Route element={<MainLayout />}>
+        <Route index element={<Home />} />
+        <Route path="shop" element={<Shop />} />
+        <Route path="shop/:category" element={<Shop />} />
+        <Route path="product/:id" element={<ProductDetail />} />
+        <Route path="cart" element={<Cart />} />
+        <Route path="wishlist" element={<Wishlist />} />
+        <Route path="search" element={<Search />} />
+        <Route path="about" element={<About />} />
+        <Route path="apply/:type" element={<Apply />} />
+
+        {/* Protected main routes */}
+        <Route element={<ProtectedRoute />}>
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="order-confirmation/:id" element={<OrderConfirmation />} />
+        </Route>
+
+        {/* Dashboard — nested under MainLayout for header/footer, but uses DashboardLayout inside */}
+        <Route
+          path="dashboard"
+          element={
+            <ProtectedRoute>
+              <DashboardLayout />
+            </ProtectedRoute>
+          }
+        >
+          <Route index element={<DashboardHome />} />
+          <Route path="profile" element={<DashboardProfile />} />
+          <Route path="orders" element={<DashboardOrders />} />
+          <Route path="wishlist" element={<DashboardWishlist />} />
+          <Route path="addresses" element={<DashboardAddresses />} />
+          <Route path="settings" element={<DashboardSettings />} />
+        </Route>
+      </Route>
+
+      {/* Auth layout */}
+      <Route element={<AuthLayout />}>
+        <Route path="login" element={<Login />} />
+        <Route path="register" element={<Register />} />
+        <Route path="forgot-password" element={<ForgotPassword />} />
+      </Route>
+
+      {/* Admin — standalone layout, no header/footer */}
+      <Route
+        path="admin"
+        element={
+          <AdminRoute>
+            <AdminLayout />
+          </AdminRoute>
+        }
+      >
+        <Route index element={<AdminOverview />} />
+        <Route path="products" element={<AdminProducts />} />
+        <Route path="orders" element={<AdminOrders />} />
+        <Route path="customers" element={<AdminCustomers />} />
+        <Route path="analytics" element={<AdminAnalytics />} />
+        <Route path="inventory" element={<AdminInventory />} />
+        <Route path="settings" element={<AdminSettings />} />
+      </Route>
+
+      {/* 404 */}
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </Suspense>
+)
+
+export default AppRoutes
