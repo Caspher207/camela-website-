@@ -155,7 +155,15 @@ const MobileMenu = () => {
               {CATEGORIES.map((cat) => (
                 <button
                   key={cat.id}
-                  onClick={() => goTo(cat.slug === 'molecular-hydrogen' ? '/molecular-hydrogen' : `/shop/${cat.slug}`)}
+                  onClick={() => {
+                    if (cat.slug === 'molecular-hydrogen') {
+                      goTo('/molecular-hydrogen')
+                    } else if (cat.slug === 'peptide') {
+                      goTo('/peptide')
+                    } else {
+                      goTo(`/shop/${cat.slug}`)
+                    }
+                  }}
                   className="flex items-center justify-between w-full px-3 py-3.5 rounded-xl text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-800 active:bg-gray-100 dark:active:bg-gray-700 mb-1 transition-colors min-h-[48px]"
                 >
                   {cat.name}

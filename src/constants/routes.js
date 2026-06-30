@@ -21,6 +21,7 @@ export const ROUTES = {
   DASHBOARD_SETTINGS: '/dashboard/settings',
   ABOUT: '/about',
   MOLECULAR_HYDROGEN: '/molecular-hydrogen',
+  PEPTIDE: '/peptide',
   APPLY: '/apply/:type',
   NOT_FOUND: '*',
 

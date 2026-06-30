@@ -52,7 +52,7 @@ const Header = () => {
       label: t('nav.categories'),
       children: [
         { label: t('nav.molecularHydrogen'), href: '/molecular-hydrogen' },
-        { label: t('nav.peptide'), href: '/shop/peptide' },
+        { label: t('nav.peptide'), href: '/peptide' },
       ],
     },
   ]
