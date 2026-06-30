@@ -228,23 +228,23 @@ const About = () => {
     </section>
 
     {/* ── Certifications ── */}
-    <section className="py-20 bg-gray-950">
-      <div className="container max-w-4xl">
-        <motion.div {...fadeUp(0)} className="text-center mb-12">
-          <p className="text-xs font-semibold uppercase tracking-widest text-brand-400 mb-2">{t('about.certs.tag')}</p>
-          <h2 className="text-3xl md:text-4xl font-display font-extrabold text-white tracking-tight">{t('about.certs.title')}</h2>
-          <p className="text-gray-400 mt-3 max-w-xl mx-auto">
+    <section className="py-16 md:py-20 bg-gray-950">
+      <div className="container max-w-4xl px-4 sm:px-6">
+        <motion.div {...fadeUp(0)} className="text-center mb-8 md:mb-12">
+          <p className="text-[10px] md:text-xs font-semibold uppercase tracking-widest text-brand-400 mb-2">{t('about.certs.tag')}</p>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-display font-extrabold text-white tracking-tight">{t('about.certs.title')}</h2>
+          <p className="text-sm md:text-base text-gray-400 mt-3 max-w-xl mx-auto px-2">
             {t('about.certs.subtitle')}
           </p>
         </motion.div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
           {CERTIFICATIONS.map(({ label, desc }, i) => (
-            <motion.div key={label} {...fadeUp(i * 0.1)} className="text-center p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-brand-500/40 transition-colors">
-              <div className="w-14 h-14 rounded-full bg-brand-500/15 flex items-center justify-center mx-auto mb-4">
-                <Award size={24} className="text-brand-400" />
+            <motion.div key={label} {...fadeUp(i * 0.1)} className="text-center p-5 md:p-8 rounded-xl md:rounded-2xl bg-white/5 border border-white/10 hover:border-brand-500/40 transition-colors">
+              <div className="w-12 h-12 md:w-14 md:h-14 rounded-full bg-brand-500/15 flex items-center justify-center mx-auto mb-3 md:mb-4">
+                <Award size={20} md:size={24} className="text-brand-400" />
               </div>
-              <p className="text-2xl font-display font-extrabold text-brand-400 mb-2">{label}</p>
-              <p className="text-sm text-gray-400">{desc}</p>
+              <p className="text-lg md:text-2xl font-display font-extrabold text-brand-400 mb-1 md:mb-2">{label}</p>
+              <p className="text-xs md:text-sm text-gray-400 leading-relaxed">{desc}</p>
             </motion.div>
           ))}
         </div>
