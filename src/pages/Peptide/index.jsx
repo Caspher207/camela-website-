@@ -64,6 +64,29 @@ const WHO_BENEFITS = [
   { icon: Heart, title: 'Individuals with "Three Highs"', desc: 'Improve cerebral blood supply, reduce risk of brain injury' },
 ]
 
+const FAQS = [
+  {
+    q: 'What are peptides and how do they differ from proteins?',
+    a: 'Peptides are compounds formed when two or more amino acids link together by peptide bonds. They are smaller than proteins and are absorbed directly by the body without complex digestive breakdown. If protein is the complete "instruction manual for life," peptides are the specific "action commands" that get things done.',
+  },
+  {
+    q: 'What makes walnut peptides special compared to regular walnuts?',
+    a: 'Walnut peptides are obtained through advanced enzymatic hydrolysis technology that breaks down walnut proteins into smaller, more bioactive fragments. This process preserves the core nutrients while optimizing them for rapid absorption and maximum physiological impact, with absorption rates exceeding 95%.',
+  },
+  {
+    q: 'Who can benefit from taking walnut peptides?',
+    a: 'Walnut peptides benefit students and professionals seeking improved focus and memory, seniors wanting to prevent cognitive decline, individuals with high stress or sleep issues, and those managing "three highs" (hypertension, hyperlipidemia, hyperglycemia) or cardiovascular concerns.',
+  },
+  {
+    q: 'Are walnut peptides safe to consume?',
+    a: 'Walnut peptides are generally considered safe and have been studied in numerous clinical trials. However, individuals with walnut allergies should avoid them. The extraction process removes most fats, resulting in a product with extremely low-fat content and minimal burden on the body.',
+  },
+  {
+    q: 'How should I take walnut peptides?',
+    a: 'Walnut peptides have excellent water solubility and can be easily mixed into water, milk, porridge, or other beverages and liquid foods. This makes them convenient for daily supplementation. The small molecular size (800-2000 Daltons) enables direct intestinal absorption within 2-5 minutes.',
+  },
+]
+
 const REFERENCES = [
   '中国生物化学与分子生物学会. 《肽营养学概述》. 2020.',
   'Daniel, H., et al. Transport of Peptides. Physiol Rev. 2018.',
@@ -407,6 +430,28 @@ const Peptide = () => {
           <motion.p {...fadeUp(0.4)} className="text-center text-xs text-gray-500 dark:text-gray-500 mt-8 italic">
             The above content is compiled from publicly available scientific literature, with the intention to share scientific discoveries.
           </motion.p>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 bg-gray-50 dark:bg-gray-800">
+        <div className="container max-w-3xl px-4">
+          <motion.div {...fadeUp(0)} className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-display font-extrabold text-gray-900 dark:text-white tracking-tight mb-4">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-gray-600 dark:text-gray-400 max-w-xl mx-auto">
+              Everything you need to know about peptides and walnut peptide supplements.
+            </p>
+          </motion.div>
+
+          <div className="space-y-3">
+            {FAQS.map((faq, i) => (
+              <motion.div key={faq.q} {...fadeUp(i * 0.08)}>
+                <FaqItem q={faq.q} a={faq.a} />
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 
