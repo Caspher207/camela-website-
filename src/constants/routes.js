@@ -20,6 +20,7 @@ export const ROUTES = {
   DASHBOARD_ADDRESSES: '/dashboard/addresses',
   DASHBOARD_SETTINGS: '/dashboard/settings',
   ABOUT: '/about',
+  MOLECULAR_HYDROGEN: '/molecular-hydrogen',
   APPLY: '/apply/:type',
   NOT_FOUND: '*',
 

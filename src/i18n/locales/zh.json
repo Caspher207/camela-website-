@@ -11,12 +11,8 @@
     "register": "注册",
     "logout": "退出登录",
     "adminPanel": "管理面板",
-    "vitamins": "维生素与补充剂",
-    "personalCare": "个人护理",
-    "skincare": "护肤",
-    "healthDevices": "健康设备",
-    "fitness": "健身与健康",
-    "nutrition": "营养与食品"
+    "molecularHydrogen": "分子氢",
+    "peptide": "肽"
   },
   "header": {
     "freeShipping": "满$75免运费",

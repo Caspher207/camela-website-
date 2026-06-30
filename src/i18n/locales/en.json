@@ -11,12 +11,8 @@
     "register": "Register",
     "logout": "Sign Out",
     "adminPanel": "Admin Panel",
-    "vitamins": "Vitamins & Supplements",
-    "personalCare": "Personal Care",
-    "skincare": "Skincare",
-    "healthDevices": "Health Devices",
-    "fitness": "Fitness & Wellness",
-    "nutrition": "Nutrition & Food"
+    "molecularHydrogen": "Molecular Hydrogen",
+    "peptide": "Peptide"
   },
   "header": {
     "freeShipping": "Free shipping on orders over $75",

@@ -29,6 +29,7 @@ const DashboardSettings = lazy(() => import('../pages/Dashboard/Settings'))
 const DashboardWishlist = lazy(() => import('../pages/Dashboard/DashboardWishlist'))
 
 const About = lazy(() => import('../pages/About'))
+const MolecularHydrogen = lazy(() => import('../pages/MolecularHydrogen'))
 const Apply = lazy(() => import('../pages/Apply'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
@@ -53,6 +54,7 @@ const AppRoutes = () => (
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="search" element={<Search />} />
         <Route path="about" element={<About />} />
+        <Route path="molecular-hydrogen" element={<MolecularHydrogen />} />
         <Route path="apply/:type" element={<Apply />} />
 
         {/* Protected main routes */}

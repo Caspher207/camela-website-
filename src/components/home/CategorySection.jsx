@@ -19,7 +19,7 @@ const CategoryCard = ({ category, index, count }) => {
       transition={{ duration: 0.5, delay: index * 0.08 }}
     >
       <Link
-        to={`/shop/${category.slug}`}
+        to={category.slug === 'molecular-hydrogen' ? '/molecular-hydrogen' : `/shop/${category.slug}`}
         className="block relative overflow-hidden rounded-2xl group h-64 md:h-72"
       >
         {/* Background image */}

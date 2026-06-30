@@ -11,12 +11,8 @@
     "register": "Daftar",
     "logout": "Log Keluar",
     "adminPanel": "Panel Admin",
-    "vitamins": "Vitamin & Suplemen",
-    "personalCare": "Penjagaan Diri",
-    "skincare": "Penjagaan Kulit",
-    "healthDevices": "Peranti Kesihatan",
-    "fitness": "Kecergasan & Kesejahteraan",
-    "nutrition": "Pemakanan & Makanan"
+    "molecularHydrogen": "Hidrogen Molekul",
+    "peptide": "Peptida"
   },
   "header": {
     "freeShipping": "Penghantaran percuma untuk pesanan melebihi $75",
