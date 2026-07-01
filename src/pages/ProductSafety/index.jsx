@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Clock, Shield, AlertTriangle, Package, CheckCircle } from 'lucide-react'
+import { Mail, Phone, MapPin, Clock, Shield } from 'lucide-react'
+import { useTranslation } from 'react-i18next'
+import txData from './translations'
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
@@ -9,6 +11,10 @@ const fadeUp = (delay = 0) => ({
 })
 
 const ProductSafety = () => {
+  const { i18n } = useTranslation()
+  const lang = i18n.language.startsWith('zh') ? 'zh' : i18n.language.startsWith('ms') ? 'ms' : 'en'
+  const tx = txData[lang] || txData.en
+
   return (
     <div className="bg-white dark:bg-gray-950 min-h-screen">
       {/* Header */}
@@ -17,12 +23,12 @@ const ProductSafety = () => {
           <motion.div {...fadeUp(0)} className="text-center">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-500/15 border border-brand-500/30 text-brand-400 text-xs font-semibold uppercase tracking-widest mb-6">
               <Shield size={12} />
-              Quality & Safety
+              {tx.badge}
             </div>
             <h1 className="text-4xl md:text-5xl font-display font-extrabold text-white tracking-tight mb-4">
-              Product Safety
+              {tx.title}
             </h1>
-            <p className="text-gray-400">Last Updated: 1 July 2026</p>
+            <p className="text-gray-400">{tx.lastUpdated}</p>
           </motion.div>
         </div>
       </section>
@@ -31,141 +37,73 @@ const ProductSafety = () => {
       <section className="py-20">
         <div className="container max-w-4xl px-4">
           <motion.div {...fadeUp(0)} className="prose prose-lg max-w-none text-gray-600 dark:text-gray-400">
-            <p className="text-lg leading-relaxed mb-12">
-              At Camela Group Pte. Ltd., product quality and consumer safety are fundamental to everything we do. We are committed to providing high-quality nutritional products that are manufactured in accordance with recognised food safety and quality standards.
-            </p>
-            <p className="leading-relaxed mb-12">
-              This Product Safety page provides important information about the safe use, storage, and handling of Camela products.
-            </p>
+            <p className="text-lg leading-relaxed mb-12">{tx.intro1}</p>
+            <p className="leading-relaxed mb-12">{tx.intro2}</p>
 
             <div className="space-y-12">
               {/* Our Commitment to Quality */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">1. Our Commitment to Quality</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  Camela works with experienced manufacturing partners that implement recognised quality management and food safety systems throughout the production process.
-                </p>
-                <p className="leading-relaxed mb-4">
-                  Our manufacturing partner maintains internationally recognised certifications, including:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>ISO 22000 Food Safety Management System</li>
-                  <li>HACCP (Hazard Analysis and Critical Control Points)</li>
-                  <li>Halal Certification</li>
-                </ul>
-                <p className="leading-relaxed mt-4">
-                  These certifications support our commitment to producing products that meet established standards for quality, safety, and consistency.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s1Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s1p1}</p>
+                <p className="leading-relaxed mb-4">{tx.s1p2}</p>
+                <ul className="list-disc pl-6 space-y-2">{tx.s1li.map((item,i)=><li key={i}>{item}</li>)}</ul>
+                <p className="leading-relaxed mt-4">{tx.s1p3}</p>
               </section>
 
               {/* Product Information */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">2. Product Information</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  Before using any Camela product, please read the product label carefully, including:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Ingredients</li>
-                  <li>Directions for use</li>
-                  <li>Recommended serving size</li>
-                  <li>Storage instructions</li>
-                  <li>Allergy information</li>
-                  <li>Any applicable warnings or precautions</li>
-                </ul>
-                <p className="leading-relaxed mt-4">
-                  Always use our products in accordance with the instructions provided.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s2Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s2p1}</p>
+                <ul className="list-disc pl-6 space-y-2">{tx.s2li.map((item,i)=><li key={i}>{item}</li>)}</ul>
+                <p className="leading-relaxed mt-4">{tx.s2p2}</p>
               </section>
 
               {/* Allergies and Sensitivities */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">3. Allergies and Sensitivities</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  Individuals with known allergies or sensitivities to any ingredient contained in a Camela product should not consume that product.
-                </p>
-                <p className="leading-relaxed">
-                  If you are unsure whether a product is suitable for you, please consult a qualified healthcare professional before use.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s3Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s3p1}</p>
+                <p className="leading-relaxed">{tx.s3p2}</p>
               </section>
 
               {/* Medical Advice */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">4. Medical Advice</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  Camela products are intended to support general nutrition and wellness.
-                </p>
-                <p className="leading-relaxed mb-4">
-                  The information provided on our website is for general informational and educational purposes only and should not be regarded as medical advice.
-                </p>
-                <p className="leading-relaxed mb-4">
-                  Our products are not intended to diagnose, treat, cure, or prevent any disease.
-                </p>
-                <p className="leading-relaxed">
-                  If you are pregnant, breastfeeding, taking medication, have an existing medical condition, or are under medical supervision, please seek advice from a qualified healthcare professional before using any dietary supplement.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s4Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s4p1}</p>
+                <p className="leading-relaxed mb-4">{tx.s4p2}</p>
+                <p className="leading-relaxed mb-4">{tx.s4p3}</p>
+                <p className="leading-relaxed">{tx.s4p4}</p>
               </section>
 
               {/* Proper Storage */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">5. Proper Storage</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  To help maintain product quality, products should be stored according to the instructions provided on the packaging.
-                </p>
-                <p className="leading-relaxed mb-4">Unless otherwise stated on the product label, products should generally be stored:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>In a cool and dry place.</li>
-                  <li>Away from direct sunlight.</li>
-                  <li>Away from excessive heat and moisture.</li>
-                  <li>Out of reach of young children.</li>
-                </ul>
-                <p className="leading-relaxed mt-4">
-                  Do not consume products that have passed their expiry date or where the packaging has been opened, damaged, or tampered with before purchase.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s5Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s5p1}</p>
+                <p className="leading-relaxed mb-4">{tx.s5p2}</p>
+                <ul className="list-disc pl-6 space-y-2">{tx.s5li.map((item,i)=><li key={i}>{item}</li>)}</ul>
+                <p className="leading-relaxed mt-4">{tx.s5p3}</p>
               </section>
 
               {/* Product Authenticity */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">6. Product Authenticity</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  To help ensure product quality and authenticity, we recommend purchasing Camela products only through:
-                </p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>The official Camela website.</li>
-                  <li>Authorised Distribution Partners.</li>
-                  <li>Official Importers.</li>
-                  <li>Other authorised sales channels approved by Camela Group.</li>
-                </ul>
-                <p className="leading-relaxed mt-4">
-                  Products obtained from unauthorised sellers may not be covered by our customer support or product policies.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s6Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s6p1}</p>
+                <ul className="list-disc pl-6 space-y-2">{tx.s6li.map((item,i)=><li key={i}>{item}</li>)}</ul>
+                <p className="leading-relaxed mt-4">{tx.s6p2}</p>
               </section>
 
               {/* Reporting a Product Concern */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">7. Reporting a Product Concern</motion.h2>
-                <p className="leading-relaxed mb-4">
-                  If you believe a Camela product may have a quality or safety issue, please contact us as soon as reasonably practicable.
-                </p>
-                <p className="leading-relaxed mb-4">Where applicable, please provide:</p>
-                <ul className="list-disc pl-6 space-y-2">
-                  <li>Product name</li>
-                  <li>Batch or lot number (if available)</li>
-                  <li>Date of purchase</li>
-                  <li>Place of purchase</li>
-                  <li>Description of the concern</li>
-                  <li>Photographs, where relevant</li>
-                </ul>
-                <p className="leading-relaxed mt-4">
-                  Providing complete information will assist us in investigating your enquiry efficiently.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s7Title}</motion.h2>
+                <p className="leading-relaxed mb-4">{tx.s7p1}</p>
+                <p className="leading-relaxed mb-4">{tx.s7p2}</p>
+                <ul className="list-disc pl-6 space-y-2">{tx.s7li.map((item,i)=><li key={i}>{item}</li>)}</ul>
+                <p className="leading-relaxed mt-4">{tx.s7p3}</p>
               </section>
 
               {/* Contact Us */}
               <section>
-                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">8. Contact Us</motion.h2>
-                <p className="leading-relaxed mb-6">
-                  If you have any questions regarding product quality or safety, please contact us.
-                </p>
+                <motion.h2 {...fadeUp(0)} className="text-2xl font-display font-bold text-gray-900 dark:text-white mb-4">{tx.s8Title}</motion.h2>
+                <p className="leading-relaxed mb-6">{tx.s8p1}</p>
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-2xl p-6 space-y-4">
                   <p className="font-bold text-gray-900 dark:text-white">Camela Group Pte. Ltd.</p>
                   <div className="flex items-start gap-3">
@@ -192,11 +130,8 @@ const ProductSafety = () => {
                     <div className="flex items-center gap-3">
                       <Clock size={18} className="text-brand-500 flex-shrink-0" />
                       <div>
-                        <p className="font-semibold text-gray-900 dark:text-white">Business Hours</p>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">
-                          Monday to Friday: 9:00 AM – 6:00 PM (Singapore Time)<br />
-                          Closed on Saturdays, Sundays, and Singapore Public Holidays.
-                        </p>
+                        <p className="font-semibold text-gray-900 dark:text-white">{tx.bhLabel}</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">{tx.bhTime}<br />{tx.bhClosed}</p>
                       </div>
                     </div>
                   </div>

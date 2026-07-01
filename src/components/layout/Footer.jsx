@@ -20,22 +20,22 @@ const Footer = () => {
 
   const FOOTER_LINKS = {
     Company: [
-      { label: t('aboutUs'), href: '/about' },
-      { label: t('blog'), href: '/' },
-      { label: t('affiliates'), href: '/' },
+      { label: t('footer.aboutUs'), href: '/about' },
+      { label: t('footer.blog'), href: '/' },
+      { label: t('footer.affiliates'), href: '/' },
     ],
     Support: [
-      { label: t('contactUs'), href: ROUTES.CONTACT_US },
-      { label: t('helpCenter'), href: ROUTES.HELP_CENTER },
-      { label: t('orderStatus'), href: ROUTES.ORDER_STATUS },
-      { label: t('returns'), href: ROUTES.RETURNS_POLICY },
-      { label: t('productSafety'), href: ROUTES.PRODUCT_SAFETY },
+      { label: t('footer.contactUs'), href: ROUTES.CONTACT_US },
+      { label: t('footer.helpCenter'), href: ROUTES.HELP_CENTER },
+      { label: t('footer.orderStatus'), href: ROUTES.ORDER_STATUS },
+      { label: t('footer.returns'), href: ROUTES.RETURNS_POLICY },
+      { label: t('footer.productSafety'), href: ROUTES.PRODUCT_SAFETY },
     ],
     Legal: [
-      { label: t('privacyPolicy'), href: ROUTES.PRIVACY_POLICY },
-      { label: t('termsOfService'), href: ROUTES.TERMS_OF_SERVICE },
-      { label: t('cookiePolicy'), href: ROUTES.COOKIE_POLICY },
-      { label: t('accessibility'), href: ROUTES.ACCESSIBILITY },
+      { label: t('footer.privacyPolicy'), href: ROUTES.PRIVACY_POLICY },
+      { label: t('footer.termsOfService'), href: ROUTES.TERMS_OF_SERVICE },
+      { label: t('footer.cookiePolicy'), href: ROUTES.COOKIE_POLICY },
+      { label: t('footer.accessibility'), href: ROUTES.ACCESSIBILITY },
     ],
   }
 
