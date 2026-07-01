@@ -22,6 +22,7 @@ export const ROUTES = {
   ABOUT: '/about',
   MOLECULAR_HYDROGEN: '/molecular-hydrogen',
   PEPTIDE: '/peptide',
+  TERMS_OF_SERVICE: '/terms-of-service',
   APPLY: '/apply/:type',
   NOT_FOUND: '*',
 

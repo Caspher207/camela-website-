@@ -31,6 +31,7 @@ const DashboardWishlist = lazy(() => import('../pages/Dashboard/DashboardWishlis
 const About = lazy(() => import('../pages/About'))
 const MolecularHydrogen = lazy(() => import('../pages/MolecularHydrogen'))
 const Peptide = lazy(() => import('../pages/Peptide'))
+const TermsOfService = lazy(() => import('../pages/TermsOfService'))
 const Apply = lazy(() => import('../pages/Apply'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
@@ -57,6 +58,7 @@ const AppRoutes = () => (
         <Route path="about" element={<About />} />
         <Route path="molecular-hydrogen" element={<MolecularHydrogen />} />
         <Route path="peptide" element={<Peptide />} />
+        <Route path="terms-of-service" element={<TermsOfService />} />
         <Route path="apply/:type" element={<Apply />} />
 
         {/* Protected main routes */}

@@ -5,6 +5,7 @@ import { Instagram, Twitter, Facebook, Youtube, ArrowRight, Mail } from 'lucide-
 import { useState } from 'react'
 import toast from 'react-hot-toast'
 import { APP_CONFIG } from '../../constants/config'
+import { ROUTES } from '../../constants/routes'
 
 const SOCIALS = [
   { icon: Instagram, href: APP_CONFIG.social.instagram, label: 'Instagram' },
@@ -32,7 +33,7 @@ const Footer = () => {
     ],
     Legal: [
       { label: t('privacyPolicy'), href: '/' },
-      { label: t('termsOfService'), href: '/' },
+      { label: t('termsOfService'), href: ROUTES.TERMS_OF_SERVICE },
       { label: t('cookiePolicy'), href: '/' },
       { label: t('accessibility'), href: '/' },
     ],
