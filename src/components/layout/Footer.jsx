@@ -25,17 +25,17 @@ const Footer = () => {
       { label: t('affiliates'), href: '/' },
     ],
     Support: [
-      { label: t('helpCenter'), href: '/' },
-      { label: t('contactUs'), href: '/' },
-      { label: t('returns'), href: '/' },
-      { label: t('orderStatus'), href: '/' },
-      { label: t('productSafety'), href: '/' },
+      { label: t('contactUs'), href: ROUTES.CONTACT_US },
+      { label: t('helpCenter'), href: ROUTES.HELP_CENTER },
+      { label: t('orderStatus'), href: ROUTES.ORDER_STATUS },
+      { label: t('returns'), href: ROUTES.RETURNS_POLICY },
+      { label: t('productSafety'), href: ROUTES.PRODUCT_SAFETY },
     ],
     Legal: [
-      { label: t('privacyPolicy'), href: '/' },
+      { label: t('privacyPolicy'), href: ROUTES.PRIVACY_POLICY },
       { label: t('termsOfService'), href: ROUTES.TERMS_OF_SERVICE },
-      { label: t('cookiePolicy'), href: '/' },
-      { label: t('accessibility'), href: '/' },
+      { label: t('cookiePolicy'), href: ROUTES.COOKIE_POLICY },
+      { label: t('accessibility'), href: ROUTES.ACCESSIBILITY },
     ],
   }
 

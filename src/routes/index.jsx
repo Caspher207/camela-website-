@@ -14,6 +14,11 @@ const ProductDetail = lazy(() => import('../pages/Product'))
 const Cart = lazy(() => import('../pages/Cart'))
 const Wishlist = lazy(() => import('../pages/Wishlist'))
 const Search = lazy(() => import('../pages/Search'))
+const HelpCenter = lazy(() => import('../pages/HelpCenter'))
+const ContactUs = lazy(() => import('../pages/ContactUs'))
+const ReturnsPolicy = lazy(() => import('../pages/ReturnsPolicy'))
+const OrderStatus = lazy(() => import('../pages/OrderStatus'))
+const ProductSafety = lazy(() => import('../pages/ProductSafety'))
 const Checkout = lazy(() => import('../pages/Checkout'))
 const OrderConfirmation = lazy(() => import('../pages/Checkout/OrderConfirmation'))
 
@@ -32,6 +37,9 @@ const About = lazy(() => import('../pages/About'))
 const MolecularHydrogen = lazy(() => import('../pages/MolecularHydrogen'))
 const Peptide = lazy(() => import('../pages/Peptide'))
 const TermsOfService = lazy(() => import('../pages/TermsOfService'))
+const PrivacyPolicy = lazy(() => import('../pages/PrivacyPolicy'))
+const CookiePolicy = lazy(() => import('../pages/CookiePolicy'))
+const Accessibility = lazy(() => import('../pages/Accessibility'))
 const Apply = lazy(() => import('../pages/Apply'))
 const NotFound = lazy(() => import('../pages/NotFound'))
 
@@ -55,10 +63,18 @@ const AppRoutes = () => (
         <Route path="cart" element={<Cart />} />
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="search" element={<Search />} />
+        <Route path="help-center" element={<HelpCenter />} />
+        <Route path="contact-us" element={<ContactUs />} />
+        <Route path="returns-policy" element={<ReturnsPolicy />} />
+        <Route path="order-status" element={<OrderStatus />} />
+        <Route path="product-safety" element={<ProductSafety />} />
         <Route path="about" element={<About />} />
         <Route path="molecular-hydrogen" element={<MolecularHydrogen />} />
         <Route path="peptide" element={<Peptide />} />
         <Route path="terms-of-service" element={<TermsOfService />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="cookie-policy" element={<CookiePolicy />} />
+        <Route path="accessibility" element={<Accessibility />} />
         <Route path="apply/:type" element={<Apply />} />
 
         {/* Protected main routes */}

@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin, FileText } from 'lucide-react'
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
@@ -15,6 +15,10 @@ const TermsOfService = () => {
       <section className="bg-gray-950 py-20">
         <div className="container max-w-4xl px-4">
           <motion.div {...fadeUp(0)} className="text-center">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-500/15 border border-brand-500/30 text-brand-400 text-xs font-semibold uppercase tracking-widest mb-6">
+              <FileText size={12} />
+              Legal Agreement
+            </div>
             <h1 className="text-4xl md:text-5xl font-display font-extrabold text-white tracking-tight mb-4">
               Terms of Service
             </h1>
