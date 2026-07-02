@@ -67,6 +67,15 @@ const FaqItem = ({ q, a }) => {
   )
 }
 
+const CERT_STYLES = [
+  { icon: Globe,      color: 'from-yellow-500 to-amber-400',  bg: 'bg-yellow-50 dark:bg-yellow-900/20',  border: 'border-yellow-200 dark:border-yellow-700' },
+  { icon: Scroll,     color: 'from-red-500 to-rose-400',      bg: 'bg-red-50 dark:bg-red-900/20',        border: 'border-red-200 dark:border-red-700' },
+  { icon: ShieldCheck,color: 'from-blue-600 to-blue-500',     bg: 'bg-blue-50 dark:bg-blue-900/20',      border: 'border-blue-200 dark:border-blue-700' },
+  { icon: Scroll,     color: 'from-rose-600 to-pink-500',     bg: 'bg-rose-50 dark:bg-rose-900/20',      border: 'border-rose-200 dark:border-rose-700' },
+  { icon: Award,      color: 'from-amber-500 to-yellow-400',  bg: 'bg-amber-50 dark:bg-amber-900/20',    border: 'border-amber-200 dark:border-amber-700' },
+  { icon: Star,       color: 'from-purple-500 to-violet-400', bg: 'bg-purple-50 dark:bg-purple-900/20',  border: 'border-purple-200 dark:border-purple-700' },
+]
+
 const MolecularHydrogen = () => {
   const { i18n } = useTranslation()
   const lang = i18n.language.startsWith('zh') ? 'zh' : i18n.language.startsWith('ms') ? 'ms' : 'en'
@@ -229,16 +238,20 @@ const MolecularHydrogen = () => {
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {tx.certCerts.map((cert, i) => (
-              <motion.div key={cert.title} {...fadeUp(i * 0.08)} className={`relative flex flex-col items-center text-center p-6 rounded-2xl border ${cert.bg} ${cert.border}`}>
-                <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${cert.color} flex items-center justify-center mb-4 shadow-md`}>
-                  <cert.icon size={26} className="text-white" />
-                </div>
-                <span className="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 mb-1">{cert.label} · {cert.year}</span>
-                <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-1 leading-snug">{cert.title}</h3>
-                <p className="text-xs text-gray-500 dark:text-gray-400">{cert.detail}</p>
-              </motion.div>
-            ))}
+            {tx.certCerts.map((cert, i) => {
+              const style = CERT_STYLES[i % CERT_STYLES.length]
+              const CertIcon = style.icon
+              return (
+                <motion.div key={cert.title} {...fadeUp(i * 0.08)} className={`relative flex flex-col items-center text-center p-6 rounded-2xl border ${style.bg} ${style.border}`}>
+                  <div className={`w-14 h-14 rounded-xl bg-gradient-to-br ${style.color} flex items-center justify-center mb-4 shadow-md`}>
+                    <CertIcon size={26} className="text-white" />
+                  </div>
+                  <span className="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 mb-1">{cert.label} · {cert.year}</span>
+                  <h3 className="text-sm font-bold text-gray-900 dark:text-white mb-1 leading-snug">{cert.title}</h3>
+                  <p className="text-xs text-gray-500 dark:text-gray-400">{cert.detail}</p>
+                </motion.div>
+              )
+            })}
           </div>
         </div>
       </section>
