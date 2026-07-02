@@ -4,6 +4,26 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Droplets, Award, Globe, Factory, FileText, Download, CheckCircle, ChevronDown, MapPin, Phone, Mail, BookOpen, Microscope, Dna, ShieldCheck, Star, Scroll } from 'lucide-react'
 import txData from './translations'
 
+const iconMap = {
+  Droplets,
+  Award,
+  Globe,
+  Factory,
+  FileText,
+  Download,
+  CheckCircle,
+  ChevronDown,
+  MapPin,
+  Phone,
+  Mail,
+  BookOpen,
+  Microscope,
+  Dna,
+  ShieldCheck,
+  Star,
+  Scroll,
+}
+
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
   whileInView: { opacity: 1, y: 0 },
@@ -99,14 +119,17 @@ const MolecularHydrogen = () => {
                 {tx.aboutDesc}
               </p>
               <div className="space-y-3">
-                {tx.features.map((item) => (
-                  <div key={item.text} className="flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0">
-                      <item.icon size={16} className="text-blue-500" />
+                {tx.features.map((item) => {
+                  const Icon = iconMap[item.icon] || Droplets
+                  return (
+                    <div key={item.text} className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-lg bg-blue-500/10 flex items-center justify-center flex-shrink-0">
+                        <Icon size={16} className="text-blue-500" />
+                      </div>
+                      <span className="text-sm font-semibold text-gray-800 dark:text-gray-200">{item.text}</span>
                     </div>
-                    <span className="text-sm font-semibold text-gray-800 dark:text-gray-200">{item.text}</span>
-                  </div>
-                ))}
+                  )
+                })}
               </div>
             </motion.div>
           </div>
