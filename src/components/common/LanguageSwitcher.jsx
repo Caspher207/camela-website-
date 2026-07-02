@@ -18,10 +18,11 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="relative group">
-      <button className="flex items-center gap-2 px-3 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+      <button className="flex items-center gap-1.5 px-2 py-2 sm:px-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
         <Globe size={16} className="text-gray-500" />
-        <span className="text-sm font-medium text-gray-700 dark:text-gray-200">
-          {currentLang.flag} {currentLang.name}
+        <span className="text-base leading-none">{currentLang.flag}</span>
+        <span className="hidden sm:inline text-sm font-medium text-gray-700 dark:text-gray-200 whitespace-nowrap">
+          {currentLang.name}
         </span>
       </button>
 

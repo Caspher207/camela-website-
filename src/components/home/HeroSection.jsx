@@ -61,7 +61,7 @@ const HeroSection = () => {
           {/* Headline — Lora serif for authoritative brand statement */}
           <motion.h1
             {...fadeUp(0.1)}
-            className="text-5xl sm:text-6xl md:text-7xl font-serif font-bold text-white leading-[1.08] mb-6"
+            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-white leading-[1.1] mb-6"
           >
             {t('home.hero.title1')}{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 to-emerald-300">
@@ -79,7 +79,7 @@ const HeroSection = () => {
           </motion.p>
 
           {/* CTAs */}
-          <motion.div {...fadeUp(0.3)} className="flex flex-wrap gap-4 mb-12">
+          <motion.div {...fadeUp(0.3)} className="flex flex-col sm:flex-row gap-3 mb-12">
             <Link
               to={ROUTES.SHOP}
               className="btn-brand btn-xl gap-3 shadow-glow"
